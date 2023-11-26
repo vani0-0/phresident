@@ -1,0 +1,38 @@
+[
+  {
+    "id": "emilio-lesson-1",
+    "title": "Emilio Aguinaldo",
+    "description": "Emilio Aguinaldo, (born March 22/23, 1869, near Cavite, Luzon, Philippines—died February 6, 1964, Quezon City), Filipino leader and politician who fought first against Spain and later against the United States for the independence of the Philippines.",
+    "image": "emilio-2.jpg"
+  },
+  {
+    "id": "emilio-lesson-2",
+    "title": "Aguinaldo's Achievements",
+    "description": "Emilio Aguinaldo led a revolutionary movement against the Spanish colonial government in the Philippines. He cooperated with the U.S. during the Spanish-American War but subsequently broke with the U.S. and led a guerrilla campaign against U.S. authorities during the Philippine-American War.",
+    "image": "emilio-3.jpg"
+  },
+  {
+    "id": "manuel-lesson-1",
+    "title": "Manuel L. Quezon",
+    "description": "About Manuel L. Quezon",
+    "image": "manuel-2.jpg"
+  },
+  {
+    "id": "manuel-lesson-2",
+    "title": "The Second President",
+    "description": "About The Second Presidency",
+    "image": "manuel-3.jpg"
+  },
+  {
+    "id": "laurel-lesson-1",
+    "title": "Jose P. Laurel",
+    "description": "About Jose P. Laurel",
+    "image": "laurel-2.jpg"
+  },
+  {
+    "id": "laurel-lesson-2",
+    "title": "The Third President",
+    "description": "About The Third Presidency",
+    "image": "laurel-3.jpg"
+  }
+]

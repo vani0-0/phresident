@@ -1,0 +1,185 @@
+[
+  {
+    "id": "1",
+    "title": "Emilio",
+    "name": "Emilio Aguinaldo",
+    "image": "emilio-1.jpg",
+    "description": "Tite si emilio",
+    "questions": [
+      {
+        "text": "What is the name of the first President of the Philippines?",
+        "options": [
+          {
+            "correct": false,
+            "value": "Joseph",
+            "detail": "Nope,  Who -tf is that???"
+          },
+          {
+            "correct": true,
+            "value": "Emilio",
+            "detail": "Yep, that's him!!"
+          },
+          {
+            "correct": false,
+            "value": "J Rizal",
+            "detail": "Nope,  Who -tf is that???"
+          }
+        ]
+      },
+      {
+        "text": "What is the name of the first President of the Philippines?",
+        "options": [
+          {
+            "correct": false,
+            "value": "Joseph",
+            "detail": "Nope,  Who -tf is that???"
+          },
+          {
+            "correct": true,
+            "value": "Emilio",
+            "detail": "Yep, that's him!!"
+          },
+          {
+            "correct": false,
+            "value": "J Rizal",
+            "detail": "Nope,  Who -tf is that???"
+          }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "id": "emilio-lesson-1",
+        "title": "Emilio Aguinaldo",
+        "description": "About Emilio Aguinaldo"
+      },
+      {
+        "id": "emilio-lesson-2",
+        "title": "The First President",
+        "description": "About The First Presidency"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Manuel",
+    "name": "Manuel L. Quezon",
+    "image": "manuel-1.jpg",
+    "description": "Mayaman si manuel",
+    "questions": [
+      {
+        "text": "What is the name of the first President of the Philippines?",
+        "options": [
+          {
+            "correct": false,
+            "value": "Joseph",
+            "detail": "Nope,  Who -tf is that???"
+          },
+          {
+            "correct": true,
+            "value": "Emilio",
+            "detail": "Yep, that's him!!"
+          },
+          {
+            "correct": false,
+            "value": "J Rizal",
+            "detail": "Nope,  Who -tf is that???"
+          }
+        ]
+      },
+      {
+        "text": "What is the name of the first President of the Philippines?",
+        "options": [
+          {
+            "correct": false,
+            "value": "Joseph",
+            "detail": "Nope,  Who -tf is that???"
+          },
+          {
+            "correct": true,
+            "value": "Emilio",
+            "detail": "Yep, that's him!!"
+          },
+          {
+            "correct": false,
+            "value": "J Rizal",
+            "detail": "Nope,  Who -tf is that???"
+          }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "id": "manuel-lesson-1",
+        "title": "Manuel L. Quezon",
+        "description": "About Manuel L. Quezon"
+      },
+      {
+        "id": "manuel-lesson-2",
+        "title": "The Second President",
+        "description": "About The Second Presidency"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Jose",
+    "name": "Jose P. Laurel",
+    "image": "laurel-1.jpg",
+    "description": "Diko kilala",
+    "questions": [
+      {
+        "text": "What is the name of the first President of the Philippines?",
+        "options": [
+          {
+            "correct": false,
+            "value": "Joseph",
+            "detail": "Nope,  Who -tf is that???"
+          },
+          {
+            "correct": true,
+            "value": "Emilio",
+            "detail": "Yep, that's him!!"
+          },
+          {
+            "correct": false,
+            "value": "J Rizal",
+            "detail": "Nope,  Who -tf is that???"
+          }
+        ]
+      },
+      {
+        "text": "What is the name of the first President of the Philippines?",
+        "options": [
+          {
+            "correct": false,
+            "value": "Joseph",
+            "detail": "Nope,  Who -tf is that???"
+          },
+          {
+            "correct": true,
+            "value": "Emilio",
+            "detail": "Yep, that's him!!"
+          },
+          {
+            "correct": false,
+            "value": "J Rizal",
+            "detail": "Nope,  Who -tf is that???"
+          }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "id": "laurel-lesson-1",
+        "title": "Jose P. Laurel",
+        "description": "About Jose P. Laurel"
+      },
+      {
+        "id": "laurel-lesson-2",
+        "title": "The Third President",
+        "description": "About The Third Presidency"
+      }
+    ]
+  }
+]
