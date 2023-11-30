@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:phresident/providers/lessons_provider.dart';
+import 'package:phresident/models/models.dart';
+
+import 'package:phresident/providers/providers.dart';
 import 'package:phresident/themes/themes.dart';
 
 class StatusContainer extends ConsumerWidget {
@@ -10,17 +12,31 @@ class StatusContainer extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    var lessons = ref.watch(markedAsDoneProvider).length;
+    List<String> done = ref.watch(markedAsDoneProvider);
+    List<TopicModel> topics = ref.watch(topicsProvider).value ?? [];
+    int lessons = 0, quiz = 0, totalLesson = 0;
+
+    for (final TopicModel topic in topics) {
+      for (final LessonModel lesson in topic.lessons) {
+        totalLesson++;
+        if (done.contains(lesson.id)) {
+          lessons++;
+        }
+      }
+      if (done.contains(topic.id)) {
+        quiz++;
+      }
+    }
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text('Medals: ', style: headingL),
         const Divider(),
+        Text('Lesson: ', style: headingS),
+        Text('                  $lessons / $totalLesson', style: paragraphM),
         Text('Quiz: ', style: headingS),
-        Text('                      $lessons / 6', style: paragraphM),
-        Text('Topic: ', style: headingS),
-        Text('                      1 / 6', style: paragraphM),
+        Text('                  $quiz / ${topics.length}', style: paragraphM),
       ],
     );
   }

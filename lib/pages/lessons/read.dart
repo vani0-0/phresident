@@ -27,8 +27,7 @@ class ReadPage extends ConsumerWidget {
               title: lesson.title,
               hasRightIcon: false,
             ),
-            body: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
+            body: ListView(
               children: [
                 Image.asset(
                   'assets/images/${lesson.image}',
@@ -43,6 +42,7 @@ class ReadPage extends ConsumerWidget {
                 Container(
                   padding: EdgeInsets.symmetric(
                       horizontal: spacingM, vertical: spacingS),
+                  margin: const EdgeInsets.only(bottom: 80),
                   child: Text(
                     lesson.description,
                     style: paragraphM,

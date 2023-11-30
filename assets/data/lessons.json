@@ -1,38 +1,255 @@
 [
   {
     "id": "emilio-lesson-1",
-    "title": "Emilio Aguinaldo",
-    "description": "Emilio Aguinaldo, (born March 22/23, 1869, near Cavite, Luzon, Philippines—died February 6, 1964, Quezon City), Filipino leader and politician who fought first against Spain and later against the United States for the independence of the Philippines.",
-    "image": "emilio-2.jpg"
+    "title": "Early Life",
+    "image": "emilio-3.jpg",
+    "description": "•\t\tBorn in Kawit, Cavite on March 22, 1869, Nicknamed Miong, Emilio Famy Aguinaldo Sr. was the seventh of eight children to Carlos Jamir Aguinaldo and Trinidad Famy-Aguinaldo. His parents were of Chinese and Tagalog descent. His father, Carlos, died when Aguinaldo was just nine years old.\n\n\t•\t\tEmilio Aguinaldo had Bachelor of Arts (college preparatory) at the Colegio de San Juan de Letran in 1880. He attended Colegio de San Juan de Letran but failed to finish his studies because of an outbreak of cholera in 1882."
   },
   {
     "id": "emilio-lesson-2",
-    "title": "Aguinaldo's Achievements",
-    "description": "Emilio Aguinaldo led a revolutionary movement against the Spanish colonial government in the Philippines. He cooperated with the U.S. during the Spanish-American War but subsequently broke with the U.S. and led a guerrilla campaign against U.S. authorities during the Philippine-American War.",
-    "image": "emilio-3.jpg"
+    "title": "Contributions and Achievements of Emilio Aguinaldo",
+    "image": "emilio-1.jpg",
+    "description": "•\t\tHe waved the Philippine flag in declaring the independence of the Philippines in 1898\n\n•\t\tHe was the first (and only) president of the First Republic (Malolos Republic)\n\n•\t\tThe youngest Filipino president, taking office at age 28. Aguinaldo served as the “Cabeza de Barangay” in 1895 when the Maura Law called for the reorganization of local governments. At 25, he became Cavite el Vieojo’s first municipal governor-captain while he was on a business trip to Mindoro.\n\n•\t\tThe longest-lived president of the Philippines, passing away at age 94\n\n•\t\tFeatured in the front and back of the Philippine 5-peso bill (not circulated anymore)\n\n•\t\tHe led the country in the Spanish-Philippine War and the American-Philippine War\n\n•\t\tHe led the proclamation of the Philippine Independence\n\n•\t\tKnown as the President of the Revolutionary Government\n\n•\t\tSigned the Pact of Biak-na-Bato, creating a truce between the Spanish and Philippine revolutionaries\n\n•\t\tHe was a well-known entrepreneur, soldier, and politician"
   },
   {
+    "id": "emilio-lesson-3",
+    "title": "PHILIPPINE REVOLUTION",
+    "image": "emilio-2.jpg",
+    "description": "•\t\tOn January 1, 1895, Aguinaldo enlisted in the Freemasonry, under the codename “Colon.”\n\n•\t\tOn March 7, 1895, Santiago Alvarez pushed Aguinaldo to join the Katipunan, a militant secret society led by Andres Bonifacio, which advocated the expulsion of the Spanish and the independence of the Philippines through an armed revolt and founded in 1892. In his affiliation, he used the codename Magdalo in honor of Mary Magdalene. His cousin Baldomero Aguinaldo was appointed leader in the Sangguniang Magdalo, a local chapter of Katipunan in Cavite.\n\n•\t\tThe Katipunan-led Philippine Revolution against the Spanish started in the last week of August 1896 in San Juan del Monte. However, Aguinaldo and his men refused to join the revolt due to the lack of arms. Bonifacio and other rebels were pushed to make use of guerrilla warfare, but Aguinaldo and the Cavite rebels won major victories because of their intensive and strategic planning and well-timed set-piece battles.\n\n•\t\tOn August 31, 1896, he initiated the attack by starting a skirmish to the full Kawit Revolt. With his army of bolomen, he raided the town center of Kawit. Before the battle, Aguinaldo commanded his troops not to kill anyone in his hometown. Upon his group’s arrival in Kawit, the guards, armed with Remingtons and with no idea of the preceding events, were caught by surprise and surrendered immediately. The guns were confiscated and taken by the Katipuneros, and the revolt was a major victory for Aguinaldo and his army. Later that afternoon, they raised the Magdalo flag at the Kawit town hall to a large group of people that had gathered after they heard of the city’s liberation."
+  },
+  {
+    "id": "emilio-lesson-4",
+    "title": "RIVALRY WITH BONIFACIO",
+    "image": "emilio-4.jpg",
+    "description": "•\t\tEmilio Aguinaldo and Andres Bonifacio’s rivalry was considered the country’s most infamous and intriguing, being filled with secrets and deception that the public has only recently started to uncover.\n\n•\t\tOn March 22, 1897, the two factions of the Katipunan, Magdalo and Magdiwang, were set to gather in Cavite for the Tejeros Convention, to discuss the Katipunan’s defence of Cavite and establish a revolutionary government, to quell the clash between the two chapters. Although Bonifacio did not show bias, it was assumed that the Magdiwang was more supportive of Bonifacio than the other group, whose leaders consisted of discontented members of the rich principalia, including Aguinaldo.\n\n•\t\tAt the Convention, while others were suggesting a monarchy, Bonifacio proposed a democratic republican government by nominating leaders of the revolutionary administration. During the elections, he was nominated for the Vice President position, but got defeated and accepted his loss. He was then nominated for the last and lowest position of Interior Secretary, and won.\n\n•\t\tHowever, Daniel Tirona rejected the result, pointing out Bonifacio’s lack of credentials to be in the government. Tirona advised that a lawyer be assigned the position instead. Insulted, Bonifacio declared the Convention invalid and walked out with his troops.\n\n•\t\tMariano Alvarez wrote a letter to his uncle, mentioning how fraudulent and deceitful the meeting was, with some Cavite men exploiting and threatening the members prior to the election.\n\n•\t\tBonifacio, on the other hand, departed for Naic, Cavite, where he wrote the Acta de Tejeros, signed by himself and 44 significant officers of the Katipunan. Proclaiming the Tejeros Convention as invalid and void, this document mentioned the lack of due process and the underhand deception that stained the elections. The Acta de Tejeros reflects Bonifacio’s insulted yet planned move against Aguinaldo’s takeover of the Katipunan.\n\n•\t\tA month later, Bonifacio issued the Acta de Naik, a signed document proclaiming the treason and betrayal of the Revolution by some of the leaders of the Katipunan, including Aguinaldo."
+  },
+  {
+    "id": "emilio-lesson-5",
+    "title": "BIAK-NA-BATO AND EXILE",
+    "image": "emilio-6.jpg",
+    "description": "•\t\tSpanish troops started an assault that led Aguinaldo’s men into retreat. On June 24, 1897, the latter reached Biak-na-Bato in San Miguel, Bulacan. From there, he created a headquarters in what is now known as “Aguinaldo Cave” in Biak-na-Bato National Park.\n\n•\t\tIn March 1897, Governor-General Fernando Primo de Rivera encouraged well-known Filipinos to contact Aguinaldo for a peaceful arrangement of the conflict. On August 9, Manila lawyer Pedro Paterno met with Aguinaldo at Biak-na-Bato, handing over a proposal for peace based on reforms and amnesty.\n\n•\t\tIn late October 1897, Aguinaldo gathered generals at Biak-na-Bato to discuss and decide the start of a constitutional republic.\n\n•\t\tOn December 14 to 15, 1897, Aguinaldo signed the Pact of Biak-na-Bato, agreeing to drop the hostilities and dissolve his government in exchange for amnesty and Php800,000 (Mexican) in compensation.\n\n•\t\tOn December 23, Aguinaldo and some officials moved to Hong Kong to join the voluntary exile. There, he reestablished his revolutionary government into the “Hong Kong Junta”, which later became the “Supreme Council of the Nation”."
+  },
+  {
+    "id": "emilio-lesson-7",
+    "title": "DECLARATION OF INDEPENDENCE",
+    "image": "emilio-5.jpg",
+    "description": "•\t\tIn 1919, when the American government allowed the Philippine flag to be raised, Aguinaldo turned his home in Kawit into a monument to the flag, the revolution, and the declaration of Independence.\n\n•\t\tWhen the Commonwealth of the Philippines was established in 1935, as preparation for the country’s independence, Aguinaldo ran for president but lost to a Spanish mestizo, Manuel L. Quezon. In 1941, they reconciled when President Quezon moved Flag Day to June 12 to celebrate Philippine independence.\n\n•\t\tAguinaldo chose to live privately, until the Japanese invasion in the country during World War II. He collaborated with the Japanese, writing them speeches, issuing articles and radio addresses in approval of the Japanese, including a radio request to Gen. Douglas MacArthur on Corregidor to give up in order to have mercy on the flower of Filipino youth.\n\n•\t\tAfter the Americans’ colonization of the country, Aguinaldo was arrested, together with those accused of collaboration with the Japanese. He was detained in Bilibid prison for months until being released by presidential amnesty.\n\n•\t\tAguinaldo was present during the grant of independence to the Philippines in 4 July 1946, when the United States government approved the full restoration and recognition of Philippine sovereignty.\n\n•\t\tAguinaldo was 93 years old when President Diosdado Macapagal officially changed the date of the Philippine Independence in 1962 from July 4 to June 12, 1898, the date Aguinaldo assumed to be the true Independence Day."
+  },
+
+  {
     "id": "manuel-lesson-1",
-    "title": "Manuel L. Quezon",
-    "description": "About Manuel L. Quezon",
-    "image": "manuel-2.jpg"
+    "title": "Early life and career",
+    "image": "manuel-3.jpg",
+    "description": "Quezon was born on 19 August 1878 in Baler in the district of El Príncipe,[4] then the capital of Nueva Ecija (now Baler, Aurora). His parents were Lucio Quezon (1850–1898) and María Dolores Molina (1840–1893).[5] Both were primary-school teachers, although his father was a retired sargento de Guardia Civil"
   },
   {
     "id": "manuel-lesson-2",
-    "title": "The Second President",
-    "description": "About The Second Presidency",
-    "image": "manuel-3.jpg"
+    "title": "Contributions and Achievements of Manuel L. Quezon",
+    "image": "manuel-7.jpg",
+    "description": "•\t\tFirst President elected through a national election\n\n•\t\tFirst Senate President elected as President of the Philippines\n\n•\t\tThe first president of the Philippines under the Commonwealth\n\n•\t\tInitiated women’s suffrage in the Philippines during the Commonwealth\n\n•\t\tManuel L. Quezon created the National Council of Education\n\n•\t\tHe approved Filipino as the national language of the Philippines\n\n•\t\tStudied Bachelor of Arts at Colegio de San Juan de Letran Studied Bachelor of Law at the University of Sto. Tomas\n\n•\t\tRanked 4th in the Philippine Bar Exam (1903)\n\n•\t\tA province, a city, a bridge, and a university in Manila are named after him\n\n•\t\tHe fought for the passage of the Tydings-McDuffie Act (1934)\n\n•\t\tHis body rests peacefully inside the special monument on Quezon Memorial Circle\n\n•\t\tFeatured in the 20-peso bill, for the Declaration of Filipino as the national language\n\n•\t\tFirst Filipino featured on the cover of TIME Magazine\n\n•\t\tQuezon City, the province of Quezon, Quezon Bridge in Manila, Manuel L. Quezon University, and many streets are named after him."
+  },
+  {
+    "id": "manuel-lesson-4",
+    "title": "Social-justice program",
+    "image": "manuel-3.jpg",
+    "description": "Pledging to improve the conditions of the Philippine working class and inspired by the social doctrines of Pope Leo XIII and Pope Pius XI and treatises by the world's leading sociologists, Quezon began a program of social justice introduced with executive measures and legislation by the National Assembly.[16] A court for industrial relations was established to mediate disputes, minimizing the impact of strikes and lockouts. A minimum-wage law was enacted, as well as a law providing an eight-hour workday and a tenancy law for Filipino farmers. The position of public defender was created to assist the poor."
+  },
+  {
+    "id": "manuel-lesson-5",
+    "title": "Educational reforms",
+    "image": "manuel-2.jpg",
+    "description": "With his Executive Order No. 19, dated 19 February 1936, Quezon created the National Council of Education. Rafael Palma, former president of the University of the Philippines, was its first chairman.[16][24] Funds from the early Residence Certificate Law were devoted to maintaining public schools throughout the country and opening many more."
+  },
+  {
+    "id": "manuel-lesson-6",
+    "title": "Women's suffrage",
+    "image": "manuel-6.jpg",
+    "description": "With his Executive Order No. 19, dated 19 February 1936, Quezon created the National Council of Education. Rafael Palma, former president of the University of the Philippines, was its first chairman.[16][24] Funds from the early Residence Certificate Law were devoted to maintaining public schools throughout the country and opening many more"
+  },
+  {
+    "id": "manuel-lesson-7",
+    "title": "National language",
+    "image": "manuel-4.jpg",
+    "description": "The Philippines' national language was another constitutional question. After a one-year study, the Institute of National Language recommended that Tagalog be the basis for a national language."
+  },
+  {
+    "id": "manuel-lesson-8",
+    "title": "Third official language",
+    "image": "manuel-4.jpg",
+    "description": "Quezon had established the Institute of National Language (INL) to create a national language for the country. On 30 December 1937, in Executive Order No. 134, he declared Tagalog the Philippines' national language; it was taught in schools during the 1940–1941 academic year. The National Assembly later enacted Law No. 570, making the national language an official language with English and Spanish; this became effective on 4 July 1946"
+  },
+  {
+    "id": "manuel-lesson-9",
+    "title": "Government in exile",
+    "image": "manuel-5.jpg",
+    "description": "Quezon was reelected president in 1941. After Japan invaded and occupied the Philippines in 1942, he went to the United States, where he formed a government in exile, served as a member of the Pacific War Council, signed the declaration of the United Nations against the fascist nations, and wrote his autobiography, The Good Fight (1946).\n\n\tSitting under a canvas canopy outside the Malinta Tunnel on 22 January 1942, Quezon heard a fireside chat during which President Roosevelt said that the Allied forces were determined to defeat Berlin and Rome, followed by Tokyo. Quezon was infuriated, summoned General MacArthur and asked him if the U.S. would support the Philippines; if not, Quezon would return to Manila and allow himself to become a prisoner of war. MacArthur replied that if the Filipinos fighting the Japanese learned that he returned to Manila and became a Japanese puppet, they would consider him a turncoat.[41]\n\n\tQuezon then heard another broadcast by former president Emilio Aguinaldo urging him and his fellow Filipino officials to yield to superior Japanese forces. Quezon wrote a message to Roosevelt saying that he and his people had been abandoned by the U.S. and it was Quezon's duty as president to stop fighting. MacArthur learned about the message, and ordered Major General Richard Marshall to counterbalance it with American propaganda whose purpose was the 'glorification of Filipino loyalty and heroism'.\n\n\tOn 2 June 1942, Quezon addressed the United States House of Representatives about the necessity of relieving the Philippine front. He did the same to the Senate, urging the senators to adopt the slogan 'Remember Bataan'. Despite his declining health, Quezon traveled across the U.S. to remind the American people about the Philippine war."
   },
   {
     "id": "laurel-lesson-1",
-    "title": "Jose P. Laurel",
-    "description": "About Jose P. Laurel",
-    "image": "laurel-2.jpg"
+    "title": "Early Life",
+    "image": "laurel-2.jpg",
+    "description": "\tHe was born on March 9, 1891, in Tanauan, Batangas. His parents were Sotero Laurel I (Father), and Jacoba Garcia (Mother). Just like many other presidents, he is a Chinese mestizo descendant. His second given name Paciano was in honor of Paciano Rizal\n\n\tDuring his teenage days, he was indicted for attempted murder which he later received an acquittal. He married Paciencia Hidalgo on April 9, 1911. Jose P. Laurel children were nine, and they included 6 sons and 3 daughters. Jose P. Laurel died on November 6, 1959, at the age of 75."
   },
   {
     "id": "laurel-lesson-2",
-    "title": "The Third President",
-    "description": "About The Third Presidency",
-    "image": "laurel-3.jpg"
+    "title": "Contributions and Achievements of Jose P. Laurel",
+    "image": "laurel-1.jpg",
+    "description": "•\t\tJose P. Laurel is the only Philippine president who served the three branches of government – he became a senator-congressman, associate justice, and president.\n\nt\tSince the early 1960s, Laurel was recognized as a legitimate president of the Philippines\n\nt\tOrganized KALIBAPI (Kapisanan sa Paglilingkod sa Bagong Pilipinas, or Association for Service to the New Philippines), a provisional government during the Japanese occupation\n\nt\tLaurel declared Martial Law and war between the Philippines and the US/United Kingdom in 1944\n\nt\tHe’s the Founder of the Lyceum of the Philippines\n\nt\tHe’s a Law genius, ranked 2nd in the Philippine Bar Exam in 1915\n\nt\tEarned a Doctorate in Civil Law from Yale University in 1920\n\nt\tReceived Honoris Causa from Tokyo Imperial University in 1938\n\nt\tHe was assassinated twice, but he survived and recovered"
+  },
+  {
+    "id": "laurel-lesson-5",
+    "title": "The trials of Rizal bill by Jose P. Laurel ",
+    "image": "laurel-3.jpg",
+    "description": "\tThe books of Rizal, specifically Noli Me Tangere, and El Filibusterismo were the base of argument raised by Senator Rodrigo. The heated disputes included the law that was sponsored by Sen. Jose P. Laurel. This law was enacted on June 12, 1956, with the purpose to disseminate Rizal’s ideas.\n\n\tThe original Rizal which was opposed by the Catholic church, since it impaired their religious freedom, was later revised. The final version removed the idea of compulsion, and it exempted others by reason of faith. This led to citizens having mixed feelings on the bill, but since the unexpurgated version was not pushed through, the Catholics felt that their needs were put into account."
+  },
+  {
+    "id": "laurel-lesson-6",
+    "title": "Programs Implemented by Jose P. Laurel",
+    "image": "laurel-4.jpg",
+    "description": "• Jose P. Laurel was the president of the Second Philippine Republic, popularly known as the Japanese puppet state.\n\n• He was elected to the Philippine Senate in 1925, where he was able to sponsor the Bill of Rights and the establishment of the Commonwealth of the Philippines. His most essential contribution to jurisprudence includes the Angara v. Electoral Commission, 63 Phil. 139, (1936).\n\n• He managed to provide domestic policies that brought consumer goods under control and ensured that there was no food shortage.\n\n• He was also involved in foreign policies such as the Philippine-Japanese Treaty of Alliance that was signed by Claro M. Recto.\n\n• He played an essential role in the Greater East Asia Conference.\n\n• He later declared the country under martial law in 1944, which made known the existence of the state of war between the Philippines and the United States.\n\n• Jose P. Laurel remains to be one of the most controversial presidents in the Philippines that will be remembered for his patriotic ways of governing his country."
+  },
+  {
+    "id": "sergio-lesson-1",
+    "title": "Contributions and Achievements of Sergio Osmena",
+    "image": "sergio-1.jpg",
+    "description": "• Sergio Osmeña was the first Visayan to become president, born in Cebu City\n\n• He joined with U.S. Gen. Douglas McArthur in Leyte on October 20, 1944, to begin the restoration of Philippine freedom after Japanese occupation\n\n• Founder of the Nacionalista Party\n\n• Philippine National Bank was rehabilitated, and the country joined the International Monetary Fund during his presidency\n\n• The U.S. Congress approved the Bell Trade Act during his presidency\n\n• He was 2nd placer in the 1903 Philippine Bar Exam\n\n• Founder and Editor of a Spanish newspaper, El Nuevo Dia, in Cebu City\n\n• Had Bachelor of Arts from Colegio de San Juan de Letran (1894)\n\n• Had Bachelor of Law from the University of Santo Tomas (1903)\n\n• Featured in the 50-peso bill, First Philippine Assembly, Leyte Landing\n\n• War Cabinet 1944–45.\n\n• Cabinet and judicial appointments 1945–46.\n\n• Restoration of the Commonwealth.\n\n• Government reorganization.\n\n• Rehabilitation of the Philippine National Bank.\n\n• People’s court.\n\n• United Nations Charter.\n\n• Foreign Relations Office."
+  },
+  {
+    "id": "sergio-lesson-2",
+    "title": "Quezon-Osmeña Impasse",
+    "image": "sergio-2.jpg",
+    "description": "By 1943, the Philippine government-in-exile was faced with a serious crisis.[8] According to the amendments to the 1935 Constitution, Quezon's term as president was to expire on December 30, 1943, and Vice-President Sergio Osmeña would automatically succeed him to serve out the remainder of term until 1945."
+  },
+  {
+    "id": "sergio-lesson-3",
+    "title": "Presidency (1944–1946)",
+    "image": "sergio-4.jpg",
+    "description": "Osmeña became president of the Commonwealth on Quezon's death in 1944. He was sworn in by Associate Justice Robert Jackson in Washington, D.C. He returned to the Philippines the same year with General Douglas MacArthur and the liberation forces. After the war, Osmeña restored the Commonwealth government and the various executive departments. He continued the fight for Philippine independence. For the presidential election of 1946, Osmeña refused to campaign, saying that the Filipino people knew of his record of 40 years of honest and faithful service."
+  },
+  {
+    "id": "sergio-lesson-4",
+    "title": "Liberation",
+    "image": "sergio-3.jpg",
+    "description": "Osmeña accompanied U.S. General Douglas MacArthur during the landing of U.S. forces in Leyte on October 20, 1944, starting the liberation of the Philippines during the Second World War. Upon establishing the beachhead, MacArthur immediately transferred authority to Osmeña, the successor of Manuel Quezon, as Philippine Commonwealth president."
+  },
+  {
+    "id": "roxas-lesson-1",
+    "title": "Early Life and Education",
+    "image": "roxas-2.jpg",
+    "description": "Roxas was born on January 1, 1892, in Capiz, Capiz (present-day Roxas City) to Gerardo Roxas y Arroyo and Rosario Acuña y Villaruz.\n\nRoxas began his law studies at a private law school established by George A. Malcolm, the first dean of the University of the Philippines College of Law. He then became a professor of law at the Philippine Law School and National University.[6] He served as secretary to Judge Cayetano Arellano of the Supreme Court.[7]"
+  },
+  {
+    "id": "roxas-lesson-2",
+    "title": "Contributions and Achievements",
+    "image": "roxas-3.jpg",
+    "description": "Contributions and Achievements of Manuel Roxas:\n• Manuel Roxas was inaugurated as the first president of the New Republic after World War II\n• Reconstruction from war damage and life without foreign rule began during his presidency\n• Congress accepted the Philippine Rehabilitation Act and Philippine Trade Act laws under his term\n• Ranked 1st Place in the Philippine Bar Exam (1913)\n• Featured in the 100-peso bill, Old Bangko Sentral ng Pilipinas building in Intramuros, Manila, Inauguration of the Third Philippine Republic\n• On June 21, Roxas reappeared in front of another joint session of Congress and urged the acceptance of two laws passed by the Congress of the United States on April 30, 1946—the Tydings–McDuffie Act, of Philippine Rehabilitation Act, and the Bell Trade Act or Philippine Trade Act"
+  },
+  {
+    "id": "roxas-lesson-3",
+    "title": "First President of the Third Republic (1946–1948)",
+    "image": "roxas-4.jpg",
+    "description": "First President of the Third Republic (1946–1948):\n• Roxas served as the president of the Commonwealth of the Philippines in a brief period, from May 28, 1946, to July 4, 1946, during which time Roxas helped prepare the groundwork for an independent Philippines."
+  },
+  {
+    "id": "quirino-lesson-1",
+    "title": "Early Life and Career",
+    "image": "quirino-3.jpg",
+    "description": "Elpidio Quirino y Rivera was born on November 16, 1890, at the Vigan Provincial Jail in Vigan, Ilocos Sur. He was the third child of Mariano Quirino y Quebral of Caoayan, Ilocos Sur, and Gregoria Rivera y Mendoza of Agoo, La Union."
+  },
+  {
+    "id": "quirino-lesson-2",
+    "title": "Contributions and Achievements",
+    "image": "quirino-2.jpg",
+    "description": "• Hukbalahap Guerrilla movement was active during his presidency\n\n• He created the Social Security Commission\n\n• He created the Integrity Board to monitor graft and corruption\n\n• During his term, Quezon City became the capital of the Philippines in 1948\n\n• Completed Bachelor of Law at the University of the Philippines in 1915\n\n• Dean of the College of Law at the Adamson University (1941-1946)\n\n• Ranked 2nd placer in the Philippine Bar Exam in 1915"
+  },
+  {
+    "id": "quirino-lesson-3",
+    "title": "Presidency (1948–1953)",
+    "image": "quirino-1.jpg",
+    "description": "Quirino's five years as president were marked by notable postwar reconstruction General economic gains Increased economic aid from the United States."
+  },
+  {
+    "id": "quirino-lesson-4",
+    "title": "Accession",
+    "image": "quirino-6.jpg",
+    "description": "Quirino assumed the presidency on April 17, 1948, taking his oath of office two days after the death of Manuel Roxas."
+  },
+  {
+    "id": "quirino-lesson-5",
+    "title": "Hukbalahap",
+    "image": "quirino-5.jpg",
+    "description": "The term Hukbalahap was a contraction of Hukbong Bayan Laban sa mga Hapon (in English: The Nation's Army Against the Japanese Soldiers), members of which were commonly referred to as Huks.\n\nThe Quirino administration faced a serious threat in the form of the communist HukBaLaHap movement. Although the Huks originally had been an anti-Japanese guerrilla army in Luzon, communists steadily gained control over the leadership, and when Quirino's negotiation with Huk commander Luis Taruc broke down in 1948, Taruc openly declared himself a Communist and called for the overthrow of the government."
+  },
+  {
+    "id": "magsaysay-lesson-1",
+    "title": "Contributions and Achievements",
+    "image": "ramon-1.jpg",
+    "description": "• He led to defeat the Hukbalahap movement\n\n• Chairman of the Committee on Guerrilla Affairs\n\n• The Philippines was ranked second in Asia’s clean and well-governed countries during his presidency\n\n• He established the National Resettlement and Rehabilitation Administration (NARRA) among other agrarian reforms\n\n• He made the Philippine a member of the Southeast Asia Treaty Organization\n\n• Magsaysay's administration was considered one of the cleanest and most corruption-free in modern Philippine history; his rule is often cited as the Philippines's 'Golden Years'.\n\n• Trade and industry flourished, the Philippine military was at its prime, and the country gained international recognition in sports, culture, and foreign affairs.\n\n• The Philippines placed second on a ranking of Asia's clean and well-governed countries."
+  },
+  {
+    "id": "garcia-lesson-1",
+    "title": "Contributions and Achievements",
+    "image": "carlos-3.jpg",
+    "description": "• Carlos P. Garcia was known for promoting 'Filipino First Policy,' which favored Filipino businesses over foreign investors.\n\n• He established the Austerity Program focusing on Filipino trade and commerce\n\n• He became a famous poet and known as the 'Prince of Visayan Poets' and the 'Bard from Bohol.'\n\n• Cultural arts were revived during his term\n\n• He was the first president to have his remains buried at the Libingan ng mga Bayani\n\n• He achieved 7th placer in the Philippine Bar Exam in 1923\n\n• During his administration, he acted on the Bohlen–Serrano Agreement, which shortened the lease of the American military bases from 99 years to 25 years and made it renewable after every five years.\n\n• President Garcia, with the strong advocacy of Agriculture and Natural Resources Secretary Juan G. Rodriguez, invited the Ford Foundation and the Rockefeller Foundation 'to establish a rice research institute' in Los Baños, Laguna. This led to the establishment of the International Rice Research Institute in 1960\n\n• In addition to his laws and programs, the Garcia administration also put emphasis on reviving the Filipino culture. In doing so, the Republic Cultural Award was created. To this day, the award is being given to Filipino artists, scientists, historians, and writers."
+  },
+  {
+    "id": "macapagal-lesson-1",
+    "title": "Contributions and Achievements",
+    "image": "diosdado-2.jpg",
+    "description": "• Topped the Bar Exam, 1st place in 1936\n\n• Took a Master of Law in 1941 and Doctor of Civil Law in 1947, and a Ph.D. in Economics in 1957\n\n• Diosdado Macapagal was a great economist, he established the first Land Reform Law, allowing for the purchase of private farmland to be distributed in inexpensive, small lots to the landless\n\n• He introduced the country's first land reform law, placed the peso on the free currency exchange market, and liberalized foreign exchange and import controls.\n\n• The Philippine representative to the United Nations General Assembly three times\n\n• He signed the Minimum Wage Law\n\n• Diosdado Macapagal signed the law to create the Philippine Veteran’s Bank\n\n• Featured in the 200-peso bill\n\n• As president, Macapagal worked to suppress graft and corruption and to stimulate the growth of the Philippine economy.\n\n• He is also known for shifting the country's observance of Independence Day from July 4 to June 12, commemorating the day President Emilio Aguinaldo unilaterally declared the independence of the First Philippine Republic from the Spanish Empire in 1898. He stood for re-election in 1965, and was defeated by Ferdinand Marcos."
+  },
+  {
+    "id": "marcos-lesson-1",
+    "title": "Contributions and Achievements",
+    "image": "marcos-2.jpg",
+    "description": "Contributions and Achievements of Ferdinand Marcos:\n• The first president to win a second term\n\n• The longest-ruling president of the Philippines, he ruled for 21 years\n\n• He declared Martial Law on Sept. 22, 1972\n\n• He increased the size of Philippine military and armed forces\n\n• By 1980, the Philippine GNP was four times greater than 1972\n\n• Marcos built more schools, roads, bridges, hospitals, and other infrastructure than all former presidents combined\n\n• He topped 1st place in the Bar Exam in 1939\n\n• The only president whose remains were interred inside a refrigerated crypt\n\n• Many of Marcos Sr.’s infrastructure projects include the North Luzon Expressway, South Luzon Expressway, Maharlika Highway, Circumferential Roads 1-10, San Juanico Bridge, and Mactan-Mandaue Bridge\n\n• Ferdinand Marcos Sr.’s government also completed 20 power plants so that the Philippines would be independent of the surging prices of oil and electricity\n\n• Notable medical institutions were also built during Marcos’s regime, such as the Philippine Heart Center, Lung Center of the Philippines, and National Kidney and Transplant Institute\n\n• The Cultural Center of the Philippines (CCP), Folks Arts Theater, Philippine International Convention Center (PICC), National Arts Center, Nayong Pilipino, and the People’s Park in the Sky were constructed during Marcos Sr.’s regime to promote Filipino heritage and culture\n\n• Marcos Sr. signed the Emancipation of Tenants from the Bondage of the Soil (Presidential Decree No.27) in 1972\n\n• He pursued an aggressive program of infrastructure development funded"
+  },
+  {
+    "id": "aquino-lesson-1",
+    "title": "Contributions and Achievements of Corazon Aquino",
+    "image": "corazon-2.jpg",
+    "description": "• Corazon Aquino's accession to the presidency marked the end of authoritarian rule in the Philippines\n\n• The first woman to be president of the Philippines or any Asian country\n\n• She signed the Family Code of 1987, a major civil law reform, and 1191 Local Government Code, which reorganized the structure of the executive branch of government\n\n• She initiated charitable and social activities helping the poor and the needy\n\n• Was named 'Woman of the Year' in 1986 by TIME magazine\n\n• She was featured on the new 500-peso bill together with her husband, Benigno Aquino Jr.\n\n• Among the 100 Women Who Shaped World History\n\n• One of the 20 Most Influential Asians of the 20th Century\n\n• One of TIME Magazine’s 65 Asian Heroes\n\n• Received Honorary Doctorates from international universities including Boston University, Eastern University in Pennsylvania, Fordham University in New York, Waseda University in Tokyo\n\n• As president, Aquino oversaw the drafting of the 1987 Constitution, which limited the powers of the presidency and re-established the bicameral Congress, removing the previous dictatorial government structure.\n\n• Her economic policies focused on forging good economic standing amongst the international community as well as disestablishing Marcos-era crony capitalist monopolies, emphasizing the free market and responsible economy.\n\n• Her administration pursued peace talks to resolve the Moro conflict, and the result of these talks was creation of the Autonomous Region in Muslim Mindanao.\n\n• Aquino was criticized for the Mendiola Massacre, which resulted in the shooting deaths of at least 12 peaceful protesters by Philippine state security forces.\n\n• Aquino was regarded as the Mother of Democracy"
+  },
+  {
+    "id": "ramos-lesson-1",
+    "title": "Contributions and Achievements of Fidel V. Ramos",
+    "image": "ramos-2.jpg",
+    "description": "• FVR was widely credited as the most effective president because he led the Philippines to economic growth\n\n• He promoted family-planning practices to help solve the country’s growing population\n\n• Hosted the 4th Asia Pacific Economic Cooperation Leader’s Summit in the Philippines in 1996\n\n• He presided over celebrations of Philippine Independence Centennial in 1998\n\n• Ramos reached out peace talks with the rebels such as the Moro National Liberation Front and New People’s Army\n\n• FVR received British Knighthood from Her Majesty Queen Elizabeth II (Knight Grand Cross of the Order of St. Michael and St. George)\n\n• The Philippine Stock Exchange became an international favorite during his presidency\n\n• Ranked 8th Place in the Philippine Civil Engineering Licensure Exam (1953)\n\n• FVR was the only military officer who reached the rank of five-star general/admiral de jure who rose from second lieutenant up to commander-in-chief of the armed forces\n\n• Had 29 Honorary Doctorate Degrees\n\n• He was one of the most influential leaders and the unofficial spokesman of liberal democracy in Asia.\n\n• He advocated party platforms as an outline and agenda for governance. He was the first Christian Democrat to be elected in the country, being the founder of Lakas-CMD (Christian-Muslim Democrats Party).\n\n• While campaigning for the presidency, Ramos declared his support for reinstating the death penalty. Capital punishment was abolished for all crimes in 1987, making the Philippines the first Asian country to do so."
+  },
+  {
+    "id": "estrada-lesson-1",
+    "title": "Contributions and Achievements of Joseph Estrada",
+    "image": "estrada-2.jpg",
+    "description": "• He starred in over 100 films in the Philippines and received numerous Best Actor awards\n\n• Moro Islamic Liberation Front headquarters and camps were captured during his presidency\n\n• Cited as one of the Three Outstanding Senators in 1989\n\n• He became a Mayor of the City of Manila, the county’s capital\n\n• He won every mayor election in San Juan from 1969 to 1984\n\n• Erap was among the “Magnificent 12” who voted to terminate the agreement that allows for U.S. control of Clark Airbase and Subic Naval Base\n\n• He was credited with the passage of, among other pieces of legislation, the bills on irrigation project and the protection of carabaos\n\n• In 2000, he declared an 'all-out-war' against the Moro Islamic Liberation Front and captured its headquarters and other camps.\n\n• Allegations of corruption spawned an impeachment trial in the Senate, and in 2001 Estrada was ousted by People Power 2 after the prosecution walked out of the impeachment court when the senator-judges voted not to open an envelope that allegedly contained incriminating evidence against him"
+  },
+  {
+    "id": "arroyo-lesson-1",
+    "title": "Contributions and Achievements of Gloria Macapagal Arroyo",
+    "image": "gloria-2.jpg",
+    "description": "• Second female president of the country\n\n• First president to take oath outside Luzon\n\n• Gloria Arroyo oversaw higher economic growth than the past three presidents before her\n\n• Philippine Peso became the best-performing currency of the year in Asia in 2007 during her term\n\n• eVAT Law was implemented under her term\n\n• She supported to bring back Spanish language in the Philippines during her 9-year presidency\n\n• She took up International Trade at Georgetown University in Washington D.C. with Bill Clinton\n\n• Graduated Magna Cum Laude from Assumption College in 1968\n\n• Arroyo earned a Master’s Degree in Economics from Ateneo de Manila University in 1978\n\n• Obtained Doctorate in Economics from the University of the Philippines in 1986\n\n• Numerous Honorary Degrees granted by prominent international universities\n\n• TIME Magazine’s People Who Mattered list for 2005\n\n• Forbes 100 Most Powerful Women in the World (2004 – 2009)\n\n• Currently featured on the 200-peso bill"
+  },
+  {
+    "id": "aquino-lesson-2",
+    "title": "Contributions and Achievements of Benigno Aquino III",
+    "image": "aquino-III-2.jpg",
+    "description": "• He created the no 'wang-wang' (street siren) policy\n\n• Noynoy initiated shifting to K-12 education in the Philippines\n\n• Peace agreement with the Moro Islamic Liberation Front in October 2012\n\n• Oversaw 7.1% growth of the Philippine economy in 2012\n\n• TIME named him one of the 100 Most Influential People in the World in 2013\n\n• Under Aquino's presidency, the nation's economy grew at the highest rates in decades, and the country was dubbed a 'Rising Tiger' economy\n\n• Known for his confrontational foreign policy, his administration filed an arbitration case, Philippines v. China, before the Permanent Court of Arbitration in an attempt to invalidate China's claims in the South China Sea and assert the Philippines' claims in the area; the court ruled in favor of the Philippines.\n\n• After leaving office, Aquino was the subject of legal actions over his role in the Mamasapano clash and for approval of a controversial budget project;[17][18] he was later acquitted of all charges filed against him regarding the Mamasapano incident"
+  },
+  {
+    "id": "duterte-lesson-1",
+    "title": "Contributions and Achievements of Rodrigo Duterte",
+    "image": "digong-2.jpg",
+    "description": "• He earned Political Science Degree from Lyceum of the Philippines in 1968\n\n• Obtained Law Degree from San Beda College in 1972\n\n• He initiated decongesting the Ninoy Aquino International Airport in Manila, the country’s main gateway\n\n• Signed the Freedom of Information Order\n\n• Duterte launched a 24-hour complaint hotline, 8888\n\n• He signed an order for Smoking Ban in public places\n\n• Boracay Island was rehabilitated during his term\n\n• Launched the Build! Build! Build! Infrastructure Program\n\n• Duterte signed the TRAIN Law and Comprehensive Tax Reform Program\n\n• One of Forbes list of World’s Most Powerful People in 2016\n\n• Duterte has been featured on the cover of TIME Magazine\n\n• During his presidency, his domestic policy focused on combating the illegal drug trade by initiating the controversial war on drugs, fighting crime and corruption, and intensified efforts against terrorism and communist insurgency.\n\n• He launched a massive infrastructure plan, initiated liberal economic reforms, streamlined government processes, and proposed a shift to a federal system of government which was ultimately unsuccessful"
+  },
+  {
+    "id": "marcos-jr-lesson-1",
+    "title": "Contributions and Achievements of Ferdinand R. Marcos Jr",
+    "image": "bbm-3.jpg",
+    "description": "• BBM has been a public servant since 1980\n\n• He served as a senator, congressman, governor, and vice-governor\n\n• Marcos Jr. authored landmark laws such as the Philippine Archipelagic Baselines Law (R.A. 9522)\n\n• He authored, co-authored, sponsored, and co-sponsored 54 bills passed into law\n\n• BBM led the modernization of agricultural and tourism landscape of Ilocos Norte when he was a governor\n\n• BBM is an advocate of renewable energy and sustainable development, the Bangui Windmill Farm was one of his astonishing energy development projects"
+  },
+  {
+    "id": "roxas-civil-war",
+    "title": "Civil War During Roxas' Presidency",
+    "image": "roxas-5.jpg",
+    "description": "After persecuting the Hukbóng Bayan Laban sa Hapón, Roxas opened peace talks with the Huks and invited a delegation of Huk leaders led by Juan Feleo to come to Manila in August 1946. While returning to their jungle bases, Felco and the other Huk leaders were ambushed by police forces, with Felco's head found floating in the Pampanga River. The ambush was intended to cripple the Huks but instead led to a civil war as the police and the army rapidly lost control of much of Luzon to the Huks.\n\nStrongly opposed to the guerrilla movement Hukbó ng Bayan Laban sa Hapón (Nation's Army Against the Japanese, also called 'the Huks'), Roxas issued a proclamation outlawing the Huk movement on March 6, 1948. At the same time, Roxas pardoned the Filipinos who had collaborated with the Japanese. The pardon of the collaborators lent some substance to the charge by the Huks that his administration was a continuation of the wartime collaborationist puppet government.\n\nThe Central Intelligence Agency in a report noted that the Philippines was dominated by 'an irresponsible ruling class which exercises economic and political power almost exclusively in its own interests'. U.S. officials throughout the late 1940s believed that Roxas was a corrupt leader whose policies openly favored the hacendado class and that unless reforms were made, it was inevitable that the Huks would win."
   }
 ]

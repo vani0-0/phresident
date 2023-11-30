@@ -2,14 +2,15 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:phresident/customs/appbar/appbar.dart';
-import 'package:phresident/models/quiz.model.dart';
-import 'package:phresident/models/topic.model.dart';
-import 'package:phresident/navigator.dart';
-import 'package:phresident/pages/lessons/lessons_list.dart';
-import 'package:phresident/pages/topics/quiz_state.dart';
+
+import 'package:phresident/providers/providers.dart';
+import 'package:phresident/customs/customs.dart';
 import 'package:phresident/themes/themes.dart';
+import 'package:phresident/models/models.dart';
+import 'package:phresident/pages/pages.dart';
+import 'package:phresident/navigator.dart';
 
 class TopicScreen extends ConsumerWidget {
   const TopicScreen({super.key, required this.topic});
@@ -18,9 +19,9 @@ class TopicScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    var quizState = ref.watch(quizStateProvider);
+    QuizState quizState = ref.watch(quizStateProvider);
     return Scaffold(
-      appBar: CustomAppbar(hasLeftIcon: false, title: topic.title),
+      appBar: CustomAppbar(hasLeftIcon: false, title: topic.name),
       body: PageView.builder(
         physics: const NeverScrollableScrollPhysics(),
         scrollDirection: Axis.vertical,
@@ -56,50 +57,19 @@ class StartPage extends ConsumerWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: [
-        Stack(
-          children: [
-            Hero(
-              tag: topic.image,
-              child: Image.asset(
-                'assets/images/${topic.image}',
-                width: MediaQuery.of(context).size.width,
-              ),
-            ),
-            Positioned.fill(
-              top: height,
-              child: ClipRect(
-                child: BackdropFilter(
-                  filter: ImageFilter.blur(sigmaX: 5.0, sigmaY: 5.0),
-                  child: Container(
-                    padding: EdgeInsets.symmetric(horizontal: spacingL),
-                    decoration: BoxDecoration(
-                      color: Colors.black87.withOpacity(.8),
-                      borderRadius: const BorderRadius.only(
-                        topLeft: Radius.circular(20),
-                        topRight: Radius.circular(20),
-                      ),
-                    ),
-                    alignment: Alignment.centerLeft,
-                    child: Text(
-                      topic.name,
-                      style: headingL.copyWith(color: color60),
-                    ),
-                  ),
-                ),
-              ),
-            ),
-          ],
-        ),
+      children: <Widget>[
+        Profile(topic: topic, height: height),
         Expanded(
-          child: Container(
-            padding: EdgeInsets.symmetric(
-              horizontal: spacingL,
-              vertical: spacingS,
-            ),
-            child: Text(
-              topic.description,
-              style: paragraphM,
+          child: SingleChildScrollView(
+            child: Container(
+              padding: EdgeInsets.symmetric(
+                horizontal: spacingL,
+                vertical: spacingS,
+              ),
+              child: Text(
+                topic.description,
+                style: paragraphM,
+              ),
             ),
           ),
         ),
@@ -141,13 +111,62 @@ class StartPage extends ConsumerWidget {
   }
 }
 
-class CongratsPage extends StatelessWidget {
+class Profile extends StatelessWidget {
+  const Profile({
+    super.key,
+    required this.topic,
+    required this.height,
+  });
+
+  final TopicModel topic;
+  final double height;
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: <Widget>[
+        Hero(
+          tag: topic.image,
+          child: Image.asset(
+            'assets/images/${topic.image}',
+            width: MediaQuery.of(context).size.width,
+            height: 275,
+            fit: BoxFit.cover,
+          ),
+        ),
+        Positioned.fill(
+          top: height,
+          child: ClipRect(
+            child: BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 5.0, sigmaY: 5.0),
+              child: Container(
+                padding: EdgeInsets.symmetric(horizontal: spacingL),
+                decoration: BoxDecoration(
+                  color: Colors.black87.withOpacity(.8),
+                  borderRadius: const BorderRadius.only(
+                    topLeft: Radius.circular(20),
+                    topRight: Radius.circular(20),
+                  ),
+                ),
+                alignment: Alignment.centerLeft,
+                child:
+                    Text(topic.title, style: headingL.copyWith(color: color60)),
+              ),
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+class CongratsPage extends ConsumerWidget {
   const CongratsPage({super.key, required this.topic});
 
   final TopicModel topic;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return Padding(
       padding: const EdgeInsets.all(8),
       child: Column(
@@ -162,6 +181,7 @@ class CongratsPage extends StatelessWidget {
             icon: const Icon(FontAwesomeIcons.check),
             label: const Text('Mark as Completed!'),
             onPressed: () {
+              ref.read(markedAsDoneProvider.notifier).markAsDone(id: topic.id);
               AppNavigator().pop(context);
             },
           ),
@@ -184,7 +204,7 @@ class QuizPage extends ConsumerWidget {
           child: Container(
             alignment: Alignment.center,
             padding: const EdgeInsets.all(16),
-            child: Text(question.text),
+            child: Text(question.text, style: paragraphL),
           ),
         ),
         Container(
@@ -216,10 +236,7 @@ class QuizPage extends ConsumerWidget {
                             Expanded(
                                 child: Container(
                               margin: const EdgeInsets.only(left: 16),
-                              child: Text(
-                                option.value,
-                                style: Theme.of(context).textTheme.bodyMedium,
-                              ),
+                              child: Text(option.value, style: paragraphS),
                             ))
                           ],
                         ),
@@ -247,11 +264,8 @@ class QuizPage extends ConsumerWidget {
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            Text(correct ? 'Good Job!' : 'Wrong'),
-            Text(
-              option.detail,
-              style: const TextStyle(fontSize: 18, color: Colors.white54),
-            ),
+            Text(correct ? 'Good Job!' : 'Wrong', style: headingS),
+            Text(option.detail, style: paragraphS),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
                   backgroundColor: correct ? Colors.green : Colors.red),

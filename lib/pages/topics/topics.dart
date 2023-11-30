@@ -1,5 +1,7 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter/material.dart';
+import 'package:phresident/models/models.dart';
+
 import 'package:phresident/pages/topics/topic_item.dart';
 import 'package:phresident/providers/providers.dart';
 import 'package:phresident/themes/themes.dart';
@@ -10,9 +12,9 @@ class TopicsPage extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    var list = ref.watch(topicsProvider);
+    AsyncValue<List<TopicModel>> topicsData = ref.watch(topicsProvider);
 
-    return list.when(
+    return topicsData.when(
       data: (topics) => GridView.count(
         primary: false,
         padding: EdgeInsets.all(spacingM),
@@ -22,7 +24,7 @@ class TopicsPage extends ConsumerWidget {
         childAspectRatio: (1 / 1.3),
         children: topics.map((topic) => TopicItem(topic: topic)).toList(),
       ),
-      error: (error, stackTrace) => Text('Error: $error'),
+      error: (error, stackTrace) => Center(child: Text('Error: $error')),
       loading: () => const Center(child: CircularProgressIndicator()),
     );
   }

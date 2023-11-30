@@ -20,12 +20,8 @@ class AnimatedCounter extends StatelessWidget {
       curve: Curves.easeInOut,
       tween: Tween<double>(begin: begin, end: end),
       builder: (context, val, child) {
-        Color interpolatedColor = Color.lerp(
-              Colors.red,
-              color,
-              val / end,
-            ) ??
-            Colors.red;
+        Color interpolatedColor =
+            Color.lerp(Colors.red, color, val / end) ?? Colors.red;
         return Text(
           '${val.toStringAsFixed(1)}%',
           style: textStyle.copyWith(color: interpolatedColor),

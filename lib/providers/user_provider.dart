@@ -36,6 +36,7 @@ class User extends _$User {
 
   void reset() {
     ref.watch(sharedUtilityProvider).reset();
+    ref.watch(markedAsDoneProvider.notifier).build();
     state = UserModel(username: ref.watch(sharedUtilityProvider).getUsername());
   }
 }

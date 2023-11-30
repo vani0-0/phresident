@@ -3,9 +3,7 @@ import 'package:phresident/customs/customs.dart';
 import 'package:phresident/themes/themes.dart';
 
 class ProgressContainer extends StatelessWidget {
-  const ProgressContainer({super.key, required this.progress});
-
-  final double progress;
+  const ProgressContainer({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +18,7 @@ class ProgressContainer extends StatelessWidget {
       padding: EdgeInsets.symmetric(vertical: spacingM, horizontal: spacingS),
       child: Column(
         children: [
-          ProgressCircular(progress: progress),
+          const ProgressCircular(),
           Text(
             'Completed!',
             style: headingM.copyWith(color: color60),

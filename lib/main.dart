@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:phresident/providers/theme_provider.dart';
-import 'package:phresident/themes/color.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'package:phresident/themes/themes.dart';
 import 'package:phresident/providers/providers.dart';
 import 'package:phresident/routes.dart';
 
@@ -29,6 +28,7 @@ class App extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final isDark = ref.watch(isDarkProvider);
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: lightTheme,
       darkTheme: darkTheme,
       themeMode: isDark ? ThemeMode.dark : ThemeMode.light,

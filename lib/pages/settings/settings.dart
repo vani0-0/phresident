@@ -119,11 +119,9 @@ class ChangeName extends ConsumerWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Text(username),
+          Text(username, style: paragraphM),
           IconButton(
-            icon: const Icon(
-              Icons.edit,
-            ),
+            icon: const Icon(Icons.edit),
             onPressed: () {
               showEditModal(context, textController, saveUsername);
             },

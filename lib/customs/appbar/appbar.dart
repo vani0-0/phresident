@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import 'package:phresident/custom_icons_icons.dart';
+import 'package:phresident/navigator.dart';
 import 'package:phresident/themes/themes.dart';
 
 class CustomAppbar extends StatelessWidget implements PreferredSizeWidget {
@@ -41,6 +42,7 @@ class CustomAppbar extends StatelessWidget implements PreferredSizeWidget {
                 icon: IconButton(
                   onPressed: () {
                     //Display About page
+                    AppNavigator().toAboutPage(context);
                   },
                   icon: const Icon(FontAwesomeIcons.circleQuestion),
                 ),

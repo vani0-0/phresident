@@ -29,23 +29,27 @@ class TopicItem extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
+            children: <Widget>[
               Flexible(
                 flex: 3,
                 child: SizedBox(
                   child: Image.asset(
                     'assets/images/${topic.image}',
+                    height: 400,
                     fit: BoxFit.cover,
                   ),
                 ),
               ),
               Container(
                 padding: EdgeInsets.only(left: spacingS, right: spacingS),
-                child: Text(topic.name, style: headingS, softWrap: true),
+                child: Text(
+                  topic.name,
+                  style: headingS,
+                  overflow: TextOverflow.fade,
+                  softWrap: false,
+                ),
               ),
-              Progressbar(
-                lessons: topic.lessons,
-              ),
+              Progressbar(lessons: topic.lessons),
             ],
           ),
         ),
@@ -71,18 +75,16 @@ class Progressbar extends ConsumerWidget {
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
+      children: <Widget>[
         Padding(
           padding: EdgeInsets.only(left: spacingS),
           child: const Text('Lesson'),
         ),
         Row(
-          children: [
+          children: <Widget>[
             Padding(
               padding: EdgeInsets.only(left: spacingS),
-              child: Text(
-                '$lessonCount / ${lessons.length}',
-              ),
+              child: Text('$lessonCount / ${lessons.length}'),
             ),
             Expanded(
               child: Padding(

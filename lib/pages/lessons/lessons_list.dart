@@ -1,20 +1,22 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:phresident/customs/appbar/appbar.dart';
-import 'package:phresident/models/lesson.model.dart';
-import 'package:phresident/navigator.dart';
-import 'package:phresident/pages/lessons/read.dart';
-import 'package:phresident/providers/providers.dart';
-import 'package:phresident/themes/themes.dart';
+import 'package:flutter/material.dart';
 
-class LessonsListPage extends ConsumerWidget {
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
+import 'package:phresident/providers/providers.dart';
+import 'package:phresident/customs/customs.dart';
+import 'package:phresident/themes/themes.dart';
+import 'package:phresident/models/models.dart';
+import 'package:phresident/pages/pages.dart';
+import 'package:phresident/navigator.dart';
+
+class LessonsListPage extends StatelessWidget {
   const LessonsListPage({super.key, required this.lessons});
 
   final List<LessonModel> lessons;
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: const CustomAppbar(title: 'Lessons', hasLeftIcon: false),
       body: LessonsList(lessons: lessons),
@@ -32,8 +34,10 @@ class LessonsList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: lessons.map((lesson) => LessonCard(lesson: lesson)).toList(),
+    return SingleChildScrollView(
+      child: Column(
+        children: lessons.map((lesson) => LessonCard(lesson: lesson)).toList(),
+      ),
     );
   }
 }
@@ -56,7 +60,7 @@ class LessonCard extends StatelessWidget {
           child: ListTile(
             title: Text(
               lesson.title,
-              style: headingM,
+              style: headingS,
             ),
             subtitle: Text(
               lesson.description,

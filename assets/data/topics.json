@@ -1,48 +1,92 @@
 [
   {
     "id": "1",
-    "title": "Emilio",
+    "title": "Emilio Aguinaldo (1899-1901)",
     "name": "Emilio Aguinaldo",
     "image": "emilio-1.jpg",
-    "description": "Tite si emilio",
+    "description": "•\t\tIn 1898, Emilio Aguinaldo achieved independence of the Philippines from Spain and was elected the first president of the new republic under the Malolos Congress. He also led the Philippine-American War against U.S. resistance to Philippine independence. Aguinaldo died of a heart attack on February 6, 1964, in Quezon City, Philippines. ",
     "questions": [
       {
-        "text": "What is the name of the first President of the Philippines?",
+        "text": "It is called the militant secret society, which advocated the expulsion of the Spanish and the independence of the Philippines through an armed revolt and founded in 1892.",
+        "options": [
+          { "value": "Silangan", "detail": "Not this one!", "correct": false },
+          { "value": "Katipunan", "detail": "Yep!!", "correct": true },
+          { "value": "Norte", "detail": "Not this one!", "correct": false }
+        ]
+      },
+      {
+        "text": "On December 14, 1897, this was signed by General Emilio Aguinaldo and Spanish Governor-General Fernando Primo de Rivera to provisionally stop the armed conflict between the Filipinos and Spaniards.",
         "options": [
           {
-            "correct": false,
-            "value": "Joseph",
-            "detail": "Nope,  Who -tf is that???"
+            "value": "Pact of Biak-na-Bato",
+            "detail": "Yep!!",
+            "correct": true
           },
           {
-            "correct": true,
-            "value": "Emilio",
-            "detail": "Yep, that's him!!"
+            "value": "Pact of Senatorial",
+            "detail": "Not this one!",
+            "correct": false
           },
           {
-            "correct": false,
-            "value": "J Rizal",
-            "detail": "Nope,  Who -tf is that???"
+            "value": "Presidency",
+            "detail": "Not this one!",
+            "correct": false
           }
         ]
       },
       {
-        "text": "What is the name of the first President of the Philippines?",
+        "text": "Aguinaldo was 93 years old when President Diosdado Macapagal officially changed the date of the Philippine Independence in 1962 from July 4 to _______, the date Aguinaldo assumed to be the true Independence Day.",
+        "options": [
+          { "value": "1920", "detail": "Not this one!", "correct": false },
+          {
+            "value": "June, 2020",
+            "detail": "Not this one!",
+            "correct": false
+          },
+          {
+            "value": "June 12, 1898",
+            "detail": "Yep!!",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "text": "The _______ was a short skirmish in the beginning of the revolution in Cavite. Gen. Aguinaldo, led some 400 men to the town hall of Kawit, guarded by a few Guardia Civil there. A few days after the revolt, Aguinaldo marched to Imus to meet the enemy in one of the great battles of the revolution.",
         "options": [
           {
-            "correct": false,
-            "value": "Joseph",
-            "detail": "Nope,  Who -tf is that???"
+            "value": "revolution",
+            "detail": "Not this one!",
+            "correct": false
           },
           {
-            "correct": true,
-            "value": "Emilio",
-            "detail": "Yep, that's him!!"
+            "value": "Kawit revolt",
+            "detail": "Yep!!",
+            "correct": true
           },
           {
-            "correct": false,
-            "value": "J Rizal",
-            "detail": "Nope,  Who -tf is that???"
+            "value": "Kiwi revolt",
+            "detail": "Not this one!",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "He led his country to achieve independence after fighting off both the Spanish and the Americans.",
+        "options": [
+          {
+            "value": "Andress Bonifacio",
+            "detail": "Not this one!",
+            "correct": false
+          },
+          {
+            "value": "Emilio Jacuinto",
+            "detail": "Not this one!",
+            "correct": false
+          },
+          {
+            "value": "Emilio Aguinaldo",
+            "detail": "Yep!!",
+            "correct": true
           }
         ]
       }
@@ -50,60 +94,132 @@
     "lessons": [
       {
         "id": "emilio-lesson-1",
-        "title": "Emilio Aguinaldo",
-        "description": "About Emilio Aguinaldo"
+        "title": "Early Life",
+        "description": "The early life of Emilio"
       },
       {
         "id": "emilio-lesson-2",
-        "title": "The First President",
-        "description": "About The First Presidency"
+        "title": "Contributions and Achievements",
+        "description": "Emilio's Contributions"
+      },
+      {
+        "id": "emilio-lesson-3",
+        "title": "PHILIPPINE REVOLUTION",
+        "description": "The Turning point"
+      },
+      {
+        "id": "emilio-lesson-4",
+        "title": "RIVALRY WITH BONIFACIO",
+        "description": "Rivarly of Andress and Emilio"
+      },
+      {
+        "id": "emilio-lesson-5",
+        "title": "BIAK-NA-BATO AND EXILE",
+        "description": "the “Supreme Council of the Nation”"
+      },
+      {
+        "id": "emilio-lesson-7",
+        "title": "DECLARATION OF INDEPENDENCE",
+        "description": ""
       }
     ]
   },
   {
     "id": "2",
-    "title": "Manuel",
+    "title": "Manuel L. Quezon (1935-1944)",
     "name": "Manuel L. Quezon",
     "image": "manuel-1.jpg",
-    "description": "Mayaman si manuel",
+    "description": "•\t\twas the 2nd president of the Philippines and the first president of the Philippine Commonwealth established under the USA. He was inaugurated on December 30, 1941, in Corregidor Island. He’s known as the “Father of National Language” (Ama ng Wikang Pambansa). He died of tuberculosis in Saranac Lake, New York.\n\n•\t\talso known by his initials MLQ, was a Filipino lawyer, statesman, soldier, and politician who was president of the Commonwealth of the Philippines. He was the first Filipino to head a government of the entire Philippines.",
     "questions": [
       {
-        "text": "What is the name of the first President of the Philippines?",
+        "text": "In 1909, Quezon became a Resident Commissioner to the US Congress, representing the Philippines in Washington. As resident commissioner, Quezon successfully lobbied for the passage of which act that would grant independence to the Philippines as soon as a stable government was established.",
         "options": [
+          { "value": "Jones Act", "detail": "Yep!!", "correct": true },
+          { "value": "Clean Act", "detail": "Not this one!", "correct": false },
           {
-            "correct": false,
-            "value": "Joseph",
-            "detail": "Nope,  Who -tf is that???"
-          },
-          {
-            "correct": true,
-            "value": "Emilio",
-            "detail": "Yep, that's him!!"
-          },
-          {
-            "correct": false,
-            "value": "J Rizal",
-            "detail": "Nope,  Who -tf is that???"
+            "value": "Service Act",
+            "detail": "Not this one!",
+            "correct": false
           }
         ]
       },
       {
-        "text": "What is the name of the first President of the Philippines?",
+        "text": "In 1937, this act/order/legislation outlined the adoption of a national language of the Philippines.",
         "options": [
           {
-            "correct": false,
-            "value": "Joseph",
-            "detail": "Nope,  Who -tf is that???"
+            "value": "Executive Order 214 ",
+            "detail": "Not this one!",
+            "correct": false
           },
           {
-            "correct": true,
-            "value": "Emilio",
-            "detail": "Yep, that's him!!"
+            "value": "Commonwealth Act 502 ",
+            "detail": "Not this one!",
+            "correct": false
           },
           {
-            "correct": false,
-            "value": "J Rizal",
-            "detail": "Nope,  Who -tf is that???"
+            "value": "Executive Order 134",
+            "detail": "Yep!!",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "text": "True or False: Quezon's term was extended.",
+        "options": [
+          {
+            "value": "Maybe",
+            "detail": "Not this one!",
+            "correct": false
+          },
+          {
+            "value": "True",
+            "detail": "Joint Resolution 25 of the US Congress extended the term of the Philippine president and vice president until the Philippine Government's normal functions were restored. This, in effect, effectively extended Quezon's second term",
+            "correct": true
+          },
+          {
+            "value": "False",
+            "detail": "Not this one!",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Quezon died of tuberculosis in New York on August 1, 1944. After Philippine independence, he was reburied in:",
+        "options": [
+          {
+            "value": "Manila North Cemetery ",
+            "detail": "Initially, Quezon was buried in Arlington Cemetery in Virginia, USA. Following the independence of the Philippines, an aircraft carrier brought home Quezon's remains on July 27, 1946. Quezon was reburied in his family's plot in Manila North Cemetery on August 1, 1946.)",
+            "correct": true
+          },
+          {
+            "value": "Libingan ng mga Bayani ",
+            "detail": "Not this one!",
+            "correct": false
+          },
+          {
+            "value": "Quezon Memorial Circle",
+            "detail": "Not this one!",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "True or False: Quezon City was the original name of the planned new city envisioned then by Quezon.",
+        "options": [
+          {
+            "value": "Maybe",
+            "detail": "Not this one!",
+            "correct": false
+          },
+          {
+            "value": "True",
+            "detail": "Not this one!",
+            "correct": false
+          },
+          {
+            "value": "False",
+            "detail": "The city was originally supposed to be called Balintawak  An amendment was filed to change its name to Quezon City. Finally, Commonwealth Act No. 502 established the city with that name.",
+            "correct": true
           }
         ]
       }
@@ -111,60 +227,150 @@
     "lessons": [
       {
         "id": "manuel-lesson-1",
-        "title": "Manuel L. Quezon",
-        "description": "About Manuel L. Quezon"
+        "title": "Early life and career",
+        "description": "The early life of Manuel"
       },
       {
         "id": "manuel-lesson-2",
-        "title": "The Second President",
-        "description": "About The Second Presidency"
+        "title": "Contributions and Achievements",
+        "description": ""
+      },
+      {
+        "id": "manuel-lesson-4",
+        "title": "Social-justice program",
+        "description": ""
+      },
+      {
+        "id": "manuel-lesson-5",
+        "title": "Educational reforms",
+        "description": ""
+      },
+      {
+        "id": "manuel-lesson-6",
+        "title": "Women's suffrage",
+        "description": ""
+      },
+      {
+        "id": "manuel-lesson-7",
+        "title": "National language",
+        "description": ""
+      },
+      {
+        "id": "manuel-lesson-8",
+        "title": "Third official language",
+        "description": ""
+      },
+      {
+        "id": "manuel-lesson-9",
+        "title": "Government in exile",
+        "description": ""
       }
     ]
   },
   {
     "id": "3",
-    "title": "Jose",
+    "title": "Jose P. Laurel (1943-1945)",
     "name": "Jose P. Laurel",
     "image": "laurel-1.jpg",
-    "description": "Diko kilala",
+    "description": "•\t\twas the 3rd president of the Philippines and the president of the Second Philippine Republic. He served president of the Philippines during the Japanese occupation during World War II.",
     "questions": [
       {
-        "text": "What is the name of the first President of the Philippines?",
+        "text": "Who was Jose P. Laurel? ",
         "options": [
           {
-            "correct": false,
-            "value": "Joseph",
-            "detail": "Nope,  Who -tf is that???"
+            "value": "Filipino Politician, Lawyer, and Judge",
+            "detail": "Yep!!",
+            "correct": true
           },
           {
-            "correct": true,
-            "value": "Emilio",
-            "detail": "Yep, that's him!!"
+            "value": "A Spanish inventor",
+            "detail": "Not this one!",
+            "correct": false
           },
           {
-            "correct": false,
-            "value": "J Rizal",
-            "detail": "Nope,  Who -tf is that???"
+            "value": "British Historian",
+            "detail": "Not this one!",
+            "correct": false
           }
         ]
       },
       {
-        "text": "What is the name of the first President of the Philippines?",
+        "text": "When did Jose P. Laurel pass away?",
         "options": [
           {
-            "correct": false,
-            "value": "Joseph",
-            "detail": "Nope,  Who -tf is that???"
+            "value": "November 6, 1958",
+            "detail": "Yep!!",
+            "correct": false
           },
           {
-            "correct": true,
-            "value": "Emilio",
-            "detail": "Yep, that's him!!"
+            "value": "November 6, 1949",
+            "detail": "Not this one!",
+            "correct": false
           },
           {
-            "correct": false,
-            "value": "J Rizal",
-            "detail": "Nope,  Who -tf is that???"
+            "value": "November 6, 1959",
+            "detail": "Jose P. Laurel died on November 6, 1959, at the age of 75.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "text": "What position did Jose P. Laurel hold during World War II?",
+        "options": [
+          {
+            "value": "Prime Minister of Japan",
+            "detail": "Not this one!",
+            "correct": false
+          },
+          {
+            "value": "Commander of Japanese Forces",
+            "detail": "Not this one!",
+            "correct": false
+          },
+          {
+            "value": "President of the Japanese-occupied Second Philippine Republic",
+            "detail": "Yep!!",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "text": "What is the Filipino political party that served as the sole party of state during the Japanese occupation? It was intended to be a Filipino version of Japan's governing Imperial Rule Assistance Association.",
+        "options": [
+          {
+            "value": "KALIBAPI",
+            "detail": "KALIBAPI meanse Kapisanan sa Paglilingkod sa Bagong Pilipinas!!",
+            "correct": true
+          },
+          {
+            "value": "Katipunan",
+            "detail": "Not this one!",
+            "correct": false
+          },
+          {
+            "value": "Silangan",
+            "detail": "Not this one!",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Yes, or No: Was Jose P. Laurel president due to democratic election?",
+        "options": [
+          {
+            "value": "Yes",
+            "detail": "Not this one!",
+            "correct": false
+          },
+          {
+            "value": "No",
+            "detail": "Jose P. Laurel was not president due to democratic election. He was president of the Second Philippine Republic; Laurel was appointed to the presidency by Japanese forces.",
+            "correct": true
+          },
+          {
+            "value": "Not Sure",
+            "detail": "Not this one!",
+            "correct": false
           }
         ]
       }
@@ -172,13 +378,921 @@
     "lessons": [
       {
         "id": "laurel-lesson-1",
-        "title": "Jose P. Laurel",
-        "description": "About Jose P. Laurel"
+        "title": "Early Life",
+        "description": ""
       },
       {
         "id": "laurel-lesson-2",
-        "title": "The Third President",
-        "description": "About The Third Presidency"
+        "title": "Contributions and Achievements",
+        "description": ""
+      },
+      {
+        "id": "laurel-lesson-5",
+        "title": "The trials of Rizal bill by Jose P. Laurel ",
+        "description": ""
+      },
+      {
+        "id": "laurel-lesson-6",
+        "title": "Programs Implemented by Jose P. Laurel",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Sergio Osmena (1944-1946)",
+    "name": "Sergio Osmena",
+    "image": "sergio-1.jpg",
+    "description": "•\tSergio Osmeña Sr. (August 1, 1944 – May 28, 1946)\n•\twas the 4th president of the Philippines and the 2nd president of the Commonwealth. He was vice president under Manuel L. Quezon. \n•\tHe was inaugurated on August 1, 1944, in Washington DC. He succeeded the presidency after the death of then president Manuel L. Quezon. During his administration, the Philippines joined the International Monetary Fund.",
+    "questions": [
+      {
+        "text": "In his administration demonstrated decisively that political sovereignty without economic independence encourages reaction, perpetuation of social injustices, and exploitation.",
+        "options": [
+          {
+            "value": "Manuel L. Quezon",
+            "detail": "Try again!",
+            "correct": false
+          },
+          {
+            "value": "Sergio Osmeña Sr.",
+            "detail": "Correct! Political sovereignty without economic independence encourages reaction, perpetuation of social injustices, and exploitation.",
+            "correct": true
+          },
+          {
+            "value": "General Douglas MacArthur",
+            "detail": "Try again!",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "After the war, Osmeña restored the ________ and the various executive departments.",
+        "options": [
+          {
+            "value": "Economic independence",
+            "detail": "Try again!",
+            "correct": false
+          },
+          {
+            "value": "Presidential election",
+            "detail": "Try again!",
+            "correct": false
+          },
+          {
+            "value": "Commonwealth government",
+            "detail": "Correct! After the war, Osmeña restored the Commonwealth government and the various executive departments.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "text": "Sergio Osmeña Sr. accompanied __________ during the landing of U.S. forces in Leyte on October 20, 1944, starting the liberation of the Philippines during the Second World War.",
+        "options": [
+          {
+            "value": "Manuel L. Quezon",
+            "detail": "Try again!",
+            "correct": false
+          },
+          {
+            "value": "Associate Justice Robert Jackson",
+            "detail": "Try again!",
+            "correct": false
+          },
+          {
+            "value": "General Douglas MacArthur",
+            "detail": "Correct! Sergio Osmeña Sr. accompanied General Douglas MacArthur during the landing of U.S. forces in Leyte on October 20, 1944, starting the liberation of the Philippines during the Second World War.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "text": "He was featured in what peso bill?",
+        "options": [
+          {
+            "value": "50 – peso bill",
+            "detail": "Correct! Sergio Osmeña Sr. was featured on the 50 – peso bill.",
+            "correct": true
+          },
+          {
+            "value": "20 – peso bill",
+            "detail": "Try again!",
+            "correct": false
+          },
+          {
+            "value": "100 – peso bill",
+            "detail": "Try again!",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "When did Sergio Osmeña Sr. pass away?",
+        "options": [
+          {
+            "value": "October 19, 1958",
+            "detail": "Try again!",
+            "correct": false
+          },
+          {
+            "value": "October 19, 1961",
+            "detail": "Correct! Sergio Osmeña Sr. died of pulmonary edema at age 83 on October 19, 1961.",
+            "correct": true
+          },
+          {
+            "value": "October 19, 1959",
+            "detail": "Try again!",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "id": "sergio-lesson-1",
+        "title": "Contributions and Achievements",
+        "description": ""
+      },
+      {
+        "id": "sergio-lesson-2",
+        "title": "Quezon-Osmeña Impasse",
+        "description": ""
+      },
+      {
+        "id": "sergio-lesson-3",
+        "title": "Presidency (1944–1946)",
+        "description": ""
+      },
+      {
+        "id": "sergio-lesson-4",
+        "title": "Liberation",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Manuel Roxas (1946-1948)",
+    "name": "Manuel Roxas",
+    "image": "roxas-1.jpg",
+    "description": "• He was the 5th president of the Philippines, the 3rd (and last) president under the Commonwealth, and the first president of the Third Republic of the Philippines.\n\n• He was inaugurated on May 28, 1946, at the National Museum building. He held office for only one year, 10 months, and 18 days.",
+    "questions": [
+      {
+        "text": "In what city was Manuel A. Roxas born?",
+        "options": [
+          { "value": "Manila", "detail": "Try again!", "correct": false },
+          {
+            "value": "Capiz",
+            "detail": "Correct! Manuel A. Roxas was born in Capiz.",
+            "correct": true
+          },
+          { "value": "Pampanga", "detail": "Try again!", "correct": false }
+        ]
+      },
+      {
+        "text": "Which statement is true.",
+        "options": [
+          {
+            "value": "Roxas was the 5th president of the Philippines, the 3rd president under the Commonwealth, and the 2nd president of the Third Republic of the Philippines.",
+            "detail": "Try again!",
+            "correct": false
+          },
+          {
+            "value": "Roxas was the 5th president of the Philippines, the 3rd president under the Commonwealth, and the 1st president of the Third Republic of the Philippines.",
+            "detail": "Correct! Manuel A. Roxas held these positions.",
+            "correct": true
+          },
+          {
+            "value": "Roxas was the 5th president of the Philippines, the 2nd president under the Commonwealth, and the 1st president of the Third Republic of the Philippines.",
+            "detail": "Try again!",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "True or False: During his presidency, did he reconstruct the damage from war and began a life without foreign rule?",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! Manuel A. Roxas reconstructed the damage from war and began a life without foreign rule during his presidency.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      },
+      {
+        "text": "The Bell Trade Act of 1946, also known as the ______ was an act passed by the United States Congress specifying policy governing trade between the Philippines and the United States following independence of the Philippines from the United States.",
+        "options": [
+          {
+            "value": "Tydings–McDuffie Act",
+            "detail": "Try again!",
+            "correct": false
+          },
+          {
+            "value": "Philippine Trade Act",
+            "detail": "Correct! The Bell Trade Act is also known as the Philippine Trade Act.",
+            "correct": true
+          },
+          {
+            "value": "Philippine Rehabilitation Act",
+            "detail": "Try again!",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "Roxas served as the president of the Commonwealth of the Philippines in a brief period, from _______.",
+        "options": [
+          {
+            "value": "May 27, 1946, to July 4, 1946",
+            "detail": "Try again!",
+            "correct": false
+          },
+          {
+            "value": "May 26, 1946, to July 4, 1946",
+            "detail": "Try again!",
+            "correct": false
+          },
+          {
+            "value": "May 28, 1946, to July 4, 1946",
+            "detail": "Correct! Manuel A. Roxas served as president during this brief period.",
+            "correct": true
+          }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "id": "roxas-lesson-1",
+        "title": "Early Life and Education",
+        "description": ""
+      },
+      {
+        "id": "roxas-lesson-2",
+        "title": "Contributions and Achievements",
+        "description": ""
+      },
+      {
+        "id": "roxas-lesson-3",
+        "title": "First President of the Third Republic (1946–1948)",
+        "description": ""
+      },
+      {
+        "id": "roxas-civil-war",
+        "title": "Civil War During Roxas' Presidency",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Elpidio Quirino (1948-1953)",
+    "name": "Elpidio Quirino",
+    "image": "quirino-4.jpg",
+    "description": "• Elpidio Quirino was the 6th president of the Philippines and the 2nd president of the Third Republic. He succeeded presidency after incumbent president Manuel Roxas died in 1948. Quirino was 57 years old when he was inaugurated as president on April 17, 1948, at the Malacañang Palace.n• The Quirino administration was generally challenged by the HukBaLaHap, who ransacked towns and barrios. Quirino ran for president again in November 1953 but was defeated by Ramon Magsaysay in a landslide.",
+    "questions": [
+      {
+        "text": "Elpidio Quirino was the 6th president of the Philippines and the __ president of the Third Republic.",
+        "options": [
+          { "value": "3rd", "detail": "Try again!", "correct": false },
+          {
+            "value": "2nd",
+            "detail": "Correct! Elpidio Quirino was the 2nd president of the Third Republic.",
+            "correct": true
+          },
+          { "value": "4th", "detail": "Try again!", "correct": false }
+        ]
+      },
+      {
+        "text": "The Quirino administration was generally challenged by the______, who ransacked towns and barrios.",
+        "options": [
+          {
+            "value": "Social Security Commission",
+            "detail": "Try again!",
+            "correct": false
+          },
+          {
+            "value": "Nacionalista Party",
+            "detail": "Try again!",
+            "correct": false
+          },
+          {
+            "value": "Hukbalahap",
+            "detail": "Correct! The Huks originally had been an anti-Japanese guerrilla army in Luzon, communists.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "text": "True or False: Quirino's six years as president were marked by notable postwar reconstruction, general economic gains, and increased economic aid from the United States.",
+        "options": [
+          { "value": "True", "detail": "Try again!", "correct": false },
+          {
+            "value": "False",
+            "detail": "Correct! Elpidio Quirino (1890-1956) spent five years as president in the Philippines.",
+            "correct": true
+          }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "id": "quirino-lesson-1",
+        "title": "Early Life and Career",
+        "description": ""
+      },
+      {
+        "id": "quirino-lesson-2",
+        "title": "Contributions and Achievements",
+        "description": ""
+      },
+      {
+        "id": "quirino-lesson-3",
+        "title": "Presidency (1948–1953)",
+        "description": ""
+      },
+      {
+        "id": "quirino-lesson-4",
+        "title": "Accession",
+        "description": ""
+      },
+      {
+        "id": "quirino-lesson-5",
+        "title": "Hukbalahap",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Ramon Magsaysay (1953-1957)",
+    "name": "Ramon Magsaysay",
+    "image": "ramon-2.jpg",
+    "description": "• He was the 7th president of the Philippines and the 3rd president of the Third Republic. He was the first president who sworn into the office wearing Barong Tagalog He was then called 'Mambo Magsaysay'. During the inauguration. He died in an aircraft disaster while boarding the presidential plane.\n\n• He was elected president under the banner of the Nacionalista Party.",
+    "questions": [
+      {
+        "text": "The Philippines placed ____ on a ranking of Asia's clean and well-governed countries.",
+        "options": [
+          { "value": "Fourth", "detail": "Try again!", "correct": false },
+          {
+            "value": "Second",
+            "detail": "Correct! The Philippines placed second on a ranking of Asia's clean and well-governed countries.",
+            "correct": true
+          },
+          { "value": "Third", "detail": "Try again!", "correct": false }
+        ]
+      },
+      {
+        "text": "Magsaysay's administration was considered as one of the cleanest and most corruption-free in modern Philippine history; his rule is often cited as the Philippines's",
+        "options": [
+          {
+            "value": "Philippine Revolution",
+            "detail": "Try again!",
+            "correct": false
+          },
+          {
+            "value": "Golden Years",
+            "detail": "Correct! Magsaysay's administration is often referred to as the Philippines's 'Golden Years.'",
+            "correct": true
+          },
+          {
+            "value": "Imperial Manila",
+            "detail": "Try again!",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "True or False: Ramon Magsaysay Sr. was the first president who sworn into the office wearing Barong Tagalog. He was then called 'Mambo Magsaysay'.",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! Ramon Magsaysay Sr. was the first president who sworn into the office wearing Barong Tagalog. He was then called 'Mambo Magsaysay.'",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "id": "magsaysay-lesson-1",
+        "title": "Contributions and Achievements",
+        "description": " "
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Carlos P. Garcia (1957-1961)",
+    "name": "Carlos P. Garcia",
+    "image": "carlos-1.jpg",
+    "description": "• He is the 8th president of the Philippines and fourth president of the Third Republic.\n\n• This Bohol native was a lawyer, poet, and professor and served as a guerrilla leader during the Pacific War.\n\n• Garcia served as vice president under Ramon Magsaysay and as secretary of Foreign Affairs for four years.\n\n• He became president when Magsaysay died in a plane crash in 1957.",
+    "questions": [
+      {
+        "text": "Carlos P. Garcia was known for promoting “_______,” which favored Filipino businesses over foreign investors.",
+        "options": [
+          {
+            "value": "Filipino First Policy",
+            "detail": "Correct! Carlos P. Garcia was known for promoting the 'Filipino First Policy,' which favored Filipino businesses over foreign investors.",
+            "correct": true
+          },
+          {
+            "value": "The Austerity Program",
+            "detail": "Try again!",
+            "correct": false
+          },
+          {
+            "value": "Nationalist Policy",
+            "detail": "Try again!",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "text": "True or False: The Garcia administration also put emphasis on reviving the Filipino culture. In doing so, the Republic Cultural Award was created.",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! The Garcia administration emphasized reviving Filipino culture, and the Republic Cultural Award was created. To this day, the award is given to Filipino artists, scientists, historians, and writers.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "id": "garcia-lesson-1",
+        "title": "Contributions and Achievements",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Diosdado Macapagal (1961-1965)",
+    "name": "Diosdado Macapagal",
+    "image": "diosdado-1.jpg",
+    "description": "• Diosdado P. Macapagal was the 9th president of the Philippines. He was a lawyer and economist, born in Lubao, Pampanga.\n\n• Known as 'the poor boy from Lubao', he was a native of Lubao, Pampanga.\n\n• He was inaugurated on December 30, 1961, at the Quirino Grandstand. His daughter, Gloria Macapagal Arroyo, followed his path and became president, too.",
+    "questions": [
+      {
+        "text": "Diosdado Macapagal was featured in what peso bill?",
+        "options": [
+          {
+            "value": "100-peso bill",
+            "detail": "Try again!",
+            "correct": false
+          },
+          { "value": "50-peso bill", "detail": "Try again!", "correct": false },
+          {
+            "value": "200-peso bill",
+            "detail": "Correct! Diosdado Macapagal was featured on the 200-peso bill.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "text": "True or False: He is also known for shifting the country's observance of Independence Day from July 4 to June 12, commemorating the day President Emilio Aguinaldo unilaterally declared the independence of the First Philippine Republic from the Spanish Empire in 1898.",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! Diosdado Macapagal shifted the observance of Independence Day from July 4 to June 12.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "id": "macapagal-lesson-1",
+        "title": "Contributions and Achievements",
+        "description": ""
+      }
+    ]
+  },
+
+  {
+    "id": "10",
+    "title": "Ferdinand Marcos (1965-1986)",
+    "name": "Ferdinand Marcos",
+    "image": "marcos-1.jpg",
+    "description": "• was the tenth president of the Philippines and the last president of the Third Republic. He was one of the most controversial leaders of the 20th century.\n\n• was born on September 11, 1917, in the town of Sarrat, Ilocos Norte, to Mariano Marcos and Josefa Edralin\n\n• He ruled under martial law from 1972 until 1981 and kept most of his martial law powers until he was deposed in 1986, branding his rule as 'constitutional authoritarianism'under his Kilusang Bagong Lipunan (New Society Movement).",
+    "questions": [
+      {
+        "text": "The longest-ruling president of the Philippines, he ruled for __ years",
+        "options": [
+          { "value": "20 years", "detail": "Try again!", "correct": false },
+          {
+            "value": "21 years",
+            "detail": "Correct! The longest-ruling president ruled for 21 years.",
+            "correct": true
+          },
+          { "value": "22 years", "detail": "Try again!", "correct": false }
+        ]
+      },
+      {
+        "text": "True or False: He declared Martial Law on Sept. 22, 1972",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! Martial Law was declared on Sept. 22, 1972.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      },
+      {
+        "text": "True or False: Marcos built more schools, roads, bridges, hospitals, and other infrastructure than all former presidents combined",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! Marcos is credited with building more infrastructure than all former presidents combined.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "id": "marcos-lesson-1",
+        "title": "Contributions and Achievements",
+        "description": " "
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Corazon Aquino (1986-1992)",
+    "name": "Corazon Aquino",
+    "image": "corazon-1.jpg",
+    "description": "• Corazon Aquino was the first woman president of the Philippines and the first woman to become president of an Asian country.\n\n• She was the 11th president and a democracy icon, one of the 100 Women Who Shaped World History and 20 Most Influential Asians of the 20th Century.",
+    "questions": [
+      {
+        "text": "True or False: Corazon Aquino was the first woman to be president of the Philippines or any Asian country.",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! Corazon Aquino was the first woman to be president of the Philippines and any Asian country.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      },
+      {
+        "text": "True or False: Corazon Aquino's accession to the presidency marked the end of authoritarian rule in the Philippines.",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! Corazon Aquino's accession to the presidency marked the end of authoritarian rule in the Philippines.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      },
+      {
+        "text": "María Corazón Sumulong Cojuangco was born on?",
+        "options": [
+          {
+            "value": "January 25, 1933",
+            "detail": "Correct! Corazon Aquino was born on January 25, 1933.",
+            "correct": true
+          },
+          {
+            "value": "January 26, 1933",
+            "detail": "Try again!",
+            "correct": false
+          },
+          {
+            "value": "January 25, 1923",
+            "detail": "Try again!",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "id": "aquino-lesson-1",
+        "title": "Contributions and Achievements",
+        "description": " "
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Fidel V. Ramos (1992-1998)",
+    "name": "Fidel V. Ramos",
+    "image": "ramos-1.jpg",
+    "description": "• Fidel Ramos was the 12th president of the Philippines. Ramos also lived longer than the other presidents. Like Aguinaldo, FVR was 94 years old when he died. He’s one of the most admired presidents because, during his presidency, he restored economic growth and stability in the country.\n\n• popularly known as FVR and Eddie Ramos, was a Filipino general and politician who served as the 12th president of the Philippines from 1992 to 1998.",
+    "questions": [
+      {
+        "text": "True or False: He was one of the most influential leaders and the unofficial spokesman of liberal democracy in Asia.",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! Fidel V. Ramos was one of the most influential leaders and the unofficial spokesman of liberal democracy in Asia.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      },
+      {
+        "text": "True or False: The death penalty was reinstated while he was in office.",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! Fidel V. Ramos declared his support for reinstating the death penalty while campaigning for the presidency.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      },
+      {
+        "text": "True or False: He did not promote family-planning practices to help solve the country’s growing population.",
+        "options": [
+          { "value": "True", "detail": "Try again!", "correct": false },
+          {
+            "value": "False",
+            "detail": "Correct! Fidel V. Ramos promoted family-planning practices to help solve the country’s growing population.",
+            "correct": true
+          }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "id": "ramos-lesson-1",
+        "title": "Contributions and Achievements",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Joseph Estrada (1998-2001)",
+    "name": "Joseph Ejercito Estrada",
+    "image": "estrada-1.jpg",
+    "description": "• He is the 13th president of the Philippines and the first film actor to become a president in the country.\n\n• During his years in office, economic growth was slow, and he faced impeachment proceedings.",
+    "questions": [
+      {
+        "text": "Joseph Ejercito Estrada is also known as?",
+        "options": [
+          {
+            "value": "Erap",
+            "detail": "Correct! Joseph Ejercito Estrada is also known as Erap.",
+            "correct": true
+          },
+          { "value": "Jose", "detail": "Try again!", "correct": false },
+          { "value": "Joe", "detail": "Try again!", "correct": false }
+        ]
+      },
+      {
+        "text": "True or False: During his years in office, economic growth was slow, and he faced impeachment proceedings.",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! During his years in office, economic growth was slow, and he faced impeachment proceedings.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      },
+      {
+        "text": "True or False: At the age of 86, he is currently the oldest living former Philippine president.",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! At the age of 86, Joseph Ejercito Estrada is currently the oldest living former Philippine president.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "id": "estrada-lesson-1",
+        "title": "Contributions and Achievements",
+        "description": " "
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "title": "Gloria Macapagal-Arroyo (2001-2010)",
+    "name": "Gloria Arroyo",
+    "image": "gloria-1.jpg",
+    "description": "• She is the 14th president of the Philippines, the 2nd female president, and the first Filipino president whose parent was a former president.\n\n• She’s also an economist like her father, ex-president Diosdado Macapagal. Having a master’s degree and doctorate in economics, Gloria put the Philippine economy back in shape.\n\n• Annual economic growth in the Philippines averaged 4.5% during her administration, expanding every quarter of her presidency. That is higher than in the administrations of her three immediate predecessors. The peso strengthened by nearly 20% in making it the best-performing currency of the year in 2007.",
+    "questions": [
+      {
+        "text": "Currently featured on what peso bill?",
+        "options": [
+          {
+            "value": "100-peso bill",
+            "detail": "Try again!",
+            "correct": false
+          },
+          {
+            "value": "200-peso bill",
+            "detail": "Correct! Gloria Arroyo is currently featured on the 200-peso bill.",
+            "correct": true
+          },
+          { "value": "500-peso bill", "detail": "Try again!", "correct": false }
+        ]
+      },
+      {
+        "text": "True or False: Gloria Arroyo oversaw higher economic growth than the past three presidents before her.",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! Gloria Arroyo oversaw higher economic growth than the past three presidents before her.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      },
+      {
+        "text": "What law was implemented under her term?",
+        "options": [
+          {
+            "value": "eVAT Law",
+            "detail": "Correct! The eVAT Law was implemented under Gloria Arroyo's term.",
+            "correct": true
+          },
+          { "value": "Martial Law", "detail": "Try again!", "correct": false },
+          {
+            "value": "International Law",
+            "detail": "Try again!",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "id": "arroyo-lesson-1",
+        "title": "Contributions and Achievements",
+        "description": " "
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "title": "Benigno Aquino III (2010-2016)",
+    "name": "Benigno Aquino III",
+    "image": "aquino-III-1.jpg",
+    "description": "• Benigno Simeon Cojuangco Aquino III was the 15th president of the Philippines.\n\n• The son of assassinated politician Benigno Aquino Jr. and 11th president Corazon Aquino, he was a fourth-generation politician as part of the Aquino family of Tarlac., he was also called as Noynoy or PNoy.\n\n• Noynoy finished his Economics degree from Ateneo de Manila University. He was one of the students of a former economics professor, Gloria Macapagal Arroyo, the president before him.\n\n• Aquino died from diabetic kidney disease on June 24, 2021, at age 61.",
+    "questions": [
+      {
+        "text": "True or False: Under Aquino's presidency, the nation's economy grew at the highest rates in decades, and the country was dubbed a 'Golden age' economy.",
+        "options": [
+          { "value": "True", "detail": "Try again!", "correct": false },
+          {
+            "value": "False",
+            "detail": "Correct! It was dubbed as a 'Rising Tiger'. The notion of a 'golden age' of the Philippine economy is associated with the Marcos regime.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "text": "True or False: He created the no 'wang-wang' (street siren) policy.",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! Aquino created the 'no wang-wang' policy.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      },
+      {
+        "text": "True or False: Noynoy initiated shifting to K-12 education in the Philippines.",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! Noynoy initiated the shift to K-12 education in the Philippines.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "id": "aquino-lesson-2",
+        "title": "Contributions and Achievements",
+        "description": " "
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "title": "Rodrigo Duterte (2016-2022)",
+    "name": "Rodrigo Roa Duterte",
+    "image": "digong-1.jpg",
+    "description": "• Rodrigo Roa Duterte is the 16th president of the Philippines. He’s one of the most loved presidents. \n\n• also known as Digong, Rody, and by the initials DU30 and PRRD\n\n• He’s earned a massive fanbase after transforming one of the most dangerous cities (Davao) into one of the world’s safest when he was a mayor. \n\n• He is the chairperson of PDP–Laban, the ruling political party in the Philippines during his presidency\n\n• Duterte is the first president of the Philippines to be from Mindanao, and is the oldest person to assume office, beginning his term at age 71.\n\n• Born in Maasin, Leyte (now in Southern Leyte), Duterte moved to Davao as a child where his father, Vicente Duterte, served as provincial governor.\n\n• He then worked as a lawyer and was a prosecutor for Davao City, before becoming vice mayor and, subsequently, mayor of the city in the wake of the 1986 People Power Revolution. \n\n• Duterte won seven terms and served as mayor of Davao for over 22 years, during which the once crime-ridden city became peaceful and investor-friendly",
+    "questions": [
+      {
+        "text": "True or False: Rodrigo Roa Duterte is the 16th president of the Philippines. He’s one of the most loved presidents.",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! Rodrigo Roa Duterte is the 16th president of the Philippines.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      },
+      {
+        "text": "True or False: Boracay Island was rehabilitated during his term.",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! Boracay Island was rehabilitated during Duterte's term.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      },
+      {
+        "text": "True or False: Duterte launched a 24-hour complaint hotline, 8888.",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! Duterte launched a 24-hour complaint hotline, 8888.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      },
+      {
+        "text": "True or False: He signed an order for Smoking Ban in public places.",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! Duterte signed an order for a Smoking Ban in public places.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      },
+      {
+        "text": "True or False: Duterte is the first president of the Philippines to be from Mindanao, and is the oldest person to assume office, beginning his term at age 71.",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! Duterte is the first president from Mindanao and the oldest person to assume office at age 71.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "id": "duterte-lesson-1",
+        "title": "Contributions and Achievements",
+        "description": " "
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "title": "Ferdinand 'Bongbong' Marcos (2022)",
+    "name": "Ferdinand Marcos",
+    "image": "bbm-2.jpg",
+    "description": "• Ferdinand R. Marcos Jr. is the 17th president of the Philippines.\n\n• He is the second child of former president Ferdinand Edralin Marcos and the “iron butterfly” Imelda Romualdez Marcos. His campaign is focused on unity. \n\n• BBM won the presidential election by a landslide garnering over 31 million votes.",
+    "questions": [
+      {
+        "text": "True or False: BBM led the modernization of agricultural and tourism landscape of Ilocos Norte when he was a governor.",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! BBM led the modernization of agricultural and tourism landscape in Ilocos Norte when he was governor.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      },
+      {
+        "text": "True or False: BBM is an advocate of renewable energy and sustainable development, the Bangui Windmill Farm was one of his astonishing energy development projects.",
+        "options": [
+          {
+            "value": "True",
+            "detail": "Correct! BBM is an advocate of renewable energy and the Bangui Windmill Farm was one of his energy development projects.",
+            "correct": true
+          },
+          { "value": "False", "detail": "Try again!", "correct": false }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "id": "marcos-jr-lesson-1",
+        "title": "Contributions and Achievements",
+        "description": ""
       }
     ]
   }

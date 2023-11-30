@@ -5,8 +5,6 @@ import 'package:phresident/customs/customs.dart';
 import 'package:phresident/pages/pages.dart';
 import 'package:phresident/providers/providers.dart';
 
-import 'widgets.dart';
-
 class HomePage extends ConsumerWidget {
   const HomePage({super.key});
 

@@ -4,9 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:phresident/models/models.dart';
 import 'package:phresident/providers/providers.dart';
 import 'package:phresident/themes/themes.dart';
-
 import 'avatar.dart';
-import 'medal.dart';
 import 'progress.dart';
 import 'status.dart';
 import 'username.dart';
@@ -17,22 +15,27 @@ class ProfilePage extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     UserModel user = ref.watch(userProvider);
-    return ListView(
+    return Padding(
       padding: EdgeInsets.symmetric(horizontal: spacingL, vertical: spacingM),
-      children: <Widget>[
-        ProfileContainer(
-          left: UsernameContainer(username: user.username),
-          right: AvatarContainer(avatar: user.avatar),
-        ),
-        const Divider(),
-        Text('Medals: ', style: headingL),
-        const MedalContainer(),
-        const Divider(),
-        ProfileContainer(
-          left: const StatusContainer(),
-          right: ProgressContainer(progress: user.progress),
-        ),
-      ],
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: <Widget>[
+          ProfileContainer(
+            left: UsernameContainer(username: user.username),
+            right: AvatarContainer(avatar: user.avatar),
+          ),
+          const Spacer(),
+          const ProfileContainer(
+            left: StatusContainer(),
+            right: ProgressContainer(),
+          ),
+          const Spacer(),
+          const Spacer(),
+          const Spacer(),
+          const Spacer(),
+        ],
+      ),
     );
   }
 }
